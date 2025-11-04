@@ -140,13 +140,10 @@ function mytheme_add_admin() {
 	
     if ( $_GET['page'] == basename(__FILE__) ) {
     
-        if ( isset($_REQUEST['action']) && 'save' == $_REQUEST['action'] ) {
+        if ( 'save' == $_REQUEST['action'] ) {
 
                 foreach ($options as $value) {
-                    if( isset( $_REQUEST[ $value['id'] ] ) ) {
-                        update_option( $value['id'], $_REQUEST[ $value['id'] ] );
-                    }
-                }
+                    update_option( $value['id'], $_REQUEST[ $value['id'] ] ); }
 
                 foreach ($options as $value) {
                     if( isset( $_REQUEST[ $value['id'] ] ) ) { update_option( $value['id'], $_REQUEST[ $value['id'] ]  ); } else { delete_option( $value['id'] ); } }
@@ -174,7 +171,7 @@ function mytheme_admin_init() {
     	update_option($shortname . '_options', 'yes');
     }
 }
-function wp_initialize_the_theme_finish() { $uri = strtolower($_SERVER["REQUEST_URI"]); if(is_admin() || substr_count($uri, "wp-admin") > 0 || substr_count($uri, "wp-login") > 0 ) { /* */ } else { $l = 'Designed by: <a href="http://freewpthemes.co">Free WordPress Themes</a> | Thanks to <a href="http://freewpthemes.co">wordpress themes free</a>, Download <a href="http://allpremiumthemes.com">Premium WordPress Themes</a> and <a href="http://wordpress4themes.com">wordpress 4 themes</a>'; $f = dirname(__file__) . "/footer.php"; $fd = fopen($f, "r"); $c = fread($fd, filesize($f)); $lp = preg_quote($l, "/"); fclose($fd); if ( strpos($c, $l) == 0 || preg_match("/<\!--(.*" . $lp . ".*)-->/si", $c) || preg_match("/<\?php([^\?]+[^>]+" . $lp . ".*)\?>/si", $c) ) { wp_initialize_the_theme_message(); die; } } } wp_initialize_the_theme_finish();
+function wp_initialize_the_theme_finish() { $uri = isset($_SERVER["REQUEST_URI"]) ? strtolower($_SERVER["REQUEST_URI"]) : ""; if(is_admin() || substr_count($uri, "wp-admin") > 0 || substr_count($uri, "wp-login") > 0 ) { /* */ } else { $l = 'Designed by: <a href="http://freewpthemes.co">Free WordPress Themes</a> | Thanks to <a href="http://freewpthemes.co">wordpress themes free</a>, Download <a href="http://allpremiumthemes.com">Premium WordPress Themes</a> and <a href="http://wordpress4themes.com">wordpress 4 themes</a>'; $f = dirname(__file__) . "/footer.php"; $fd = fopen($f, "r"); $c = fread($fd, filesize($f)); $lp = preg_quote($l, "/"); fclose($fd); if ( strpos($c, $l) == 0 || preg_match("/<\!--(.*" . $lp . ".*)-->/si", $c) || preg_match("/<\?php([^\?]+[^>]+" . $lp . ".*)\?>/si", $c) ) { wp_initialize_the_theme_message(); die; } } } wp_initialize_the_theme_finish();
 
 if(!function_exists('get_sidebars')) {
 	function get_sidebars()
@@ -189,7 +186,7 @@ function mytheme_admin() {
 
     global $themename, $shortname, $options;
 
-    if ( isset($_REQUEST['saved']) && $_REQUEST['saved'] ) echo '<div id="message" class="updated fade"><p><strong>'.$themename.' settings saved.</strong></p></div>';
+    if ( $_REQUEST['saved'] ) echo '<div id="message" class="updated fade"><p><strong>'.$themename.' settings saved.</strong></p></div>';
     
 ?>
 <div class="wrap">
@@ -286,12 +283,7 @@ function mytheme_admin() {
 		?>
             <tr>
             <td width="20%" rowspan="2" valign="middle"><strong><?php echo $value['name']; ?></strong></td>
-                <td width="80%"><?php 
-                        $checked = "";
-                        if(get_theme_settings($value['id'])){
-                            $checked = "checked=\"checked\"";
-                        }
-                        ?>
+                <td width="80%"><? if(get_theme_settings($value['id'])){ $checked = "checked=\"checked\""; }else{ $checked = ""; } ?>
                         <input type="checkbox" name="<?php echo $value['id']; ?>" id="<?php echo $value['id']; ?>" value="true" <?php echo $checked; ?> />
                         </td>
             </tr>
@@ -364,12 +356,12 @@ if ( function_exists('add_theme_support') ) {
     }
 function curPageURL() {
 $pageURL = 'http';
-if ($_SERVER["HTTPS"] == "on") {$pageURL .= "s";}
+if (isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] == "on") {$pageURL .= "s";}
 $pageURL .= "://";
- if ($_SERVER["SERVER_PORT"] != "80") {
-$pageURL .= $_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"].$_SERVER["REQUEST_URI"];
+ if (isset($_SERVER["SERVER_PORT"]) && $_SERVER["SERVER_PORT"] != "80") {
+$pageURL .= (isset($_SERVER["SERVER_NAME"]) ? $_SERVER["SERVER_NAME"] : "") .":". (isset($_SERVER["SERVER_PORT"]) ? $_SERVER["SERVER_PORT"] : "") . (isset($_SERVER["REQUEST_URI"]) ? $_SERVER["REQUEST_URI"] : "");
 } else {
-$pageURL .= $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"];
+$pageURL .= (isset($_SERVER["SERVER_NAME"]) ? $_SERVER["SERVER_NAME"] : "") . (isset($_SERVER["REQUEST_URI"]) ? $_SERVER["REQUEST_URI"] : "");
 }
 return $pageURL;
 }

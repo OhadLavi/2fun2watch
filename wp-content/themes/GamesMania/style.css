@@ -11,7 +11,7 @@
 /* LAYOUT */
 
 body {
-	background-color: #413d33;
+	background-color: #000000;
 	}
 
 #wrapper {
@@ -23,7 +23,7 @@ body {
 	}
 
 #contentwrap {
-	background: #2a2721;
+	background: #353432;
 	}
 
 a {
@@ -618,7 +618,7 @@ margin-right: 20px;
 
 #wp-calendar td:hover, #wp-calendar #today {
 	background: #c5bfb1;
-	color: #2a2721;
+	color: #353432;
 	}
 	
 #wp-calendar {

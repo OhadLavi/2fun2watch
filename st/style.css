@@ -1,0 +1,324 @@
+/*
+Theme Name: gamezine
+Description: 3 coloumn pro gamer theme
+Author: Jinsona designs
+Author URI: http://web2feel.com/
+*/
+
+body {
+	margin:0 auto;
+	padding-top:0px;
+	background:#02070F url(images/body.jpg) repeat-x top ;
+	font-family:Century gothic, Arial,Tahoma,sans-serif;
+	color:#668790;
+	font-size:13px;
+	}
+	
+	
+img {
+	border:0;
+	}
+a {
+	color:#69A1C2;
+	text-decoration:none
+	}
+a:hover {
+	color:#255273;
+	text-decoration:none
+		}
+h1, h2, h3, h4, h5, h6 {
+	
+	}
+
+.clear {
+	clear:both;
+	}
+.alignleft {
+	float:left;
+	padding:2px 0 0 5px;
+	}
+.alignright {
+	float:right;
+	padding:2px 7px 0 5px;
+	}
+.aligncenter {
+margin-left: 50px;
+	}
+.ad1{
+	text-align:center;
+	margin:5px auto;
+	padding:0 0;
+}
+/* The Wrapper */
+
+.wrapper {
+	width:1000px;
+	margin:0 auto;
+	background:#e2e2d9;		
+	padding: 0 0 0px 0;
+	}
+	
+	
+/* The Top */
+
+#top {
+	height:158px;
+	margin:auto;
+	background:#f5f3f3 url(images/head.jpg);
+	background-repeat:no-repeat;
+
+	}
+.blogname {
+	float:left;
+	width:700px;
+	font-family:"Century Gothic",Verdana,Tahoma,sans-serif;	
+	margin:0px 0 0 0;
+	}
+.blogname h1  {
+	font-size:45px;
+	font-weight:bold;
+	margin:40px 0px 0 25px;
+	text-decoration: none;
+	text-align:left;
+	}
+
+.blogname h1  a:link, .blogname h1  a:visited{ 
+	color: #fff; 
+	text-decoration: none; 
+	background-color:transparent;
+	display:block;
+	}
+	
+.blogname h1  a:hover { 
+	color: #5AA6BE; 
+	text-decoration: none; 
+	background-color:transparent;
+	}
+.blogname h2 {
+	margin:5px 0px 0 30px;
+	font-size:16px;
+	font-weight:bold;
+	color:#000;
+	text-align:left;
+	}
+/* Search */
+
+
+#search {
+	height:32px;
+	width:auto;
+	padding-top:10px ;
+	padding-bottom:5px ;
+	margin-right:5px;
+	margin-top:0px;
+	width:325px;
+	float:right;
+	background:url(images/searchb.jpg);
+}
+
+#search form {
+	margin: 0;
+	padding: 0;
+}
+
+#search fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#search p {
+	margin: 0;
+	font-size: 85%;
+}
+
+#s {
+	margin-left:5px;
+	float: left;
+	width:225px;
+	padding: 5px 5px;
+	background:url(images/sf.jpg) no-repeat;
+	border:none;
+	font: normal 100% "century Gothic", Arial, Helvetica, sans-serif;
+	color:#fff;
+}
+
+#searchsubmit {
+	width:60px;
+	float: left;
+	background:url(images/smit2.jpg) no-repeat ;
+	border:none;
+	font: bold 100% "century gothic", Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	height:30px;
+              margin-left: 10px;
+}
+		
+
+
+/* The Sidebar1 */
+.sidebar1{
+	float:left;
+	width:150px;
+	padding-top:10px;
+	padding-left:5px;
+	font-size:12px;
+	font-family: century gothic,Georgia, Arial, sans-serif;
+	}
+
+.sidebar1 h2 {
+	height:30px;
+	line-height:30px;
+	font-size:18px;
+	color:#fff;
+	margin:0px 0 0 0 ;
+	padding:0px 0 0 5px;
+	background:url(images/sh2.jpg);
+	font-weight:normal;
+
+	}
+.sidebar1 ul {
+	list-style-type: none;
+	margin: 0 ;
+	padding: 0;
+
+	}
+
+.sidebar1 ul ul  {
+	list-style-type: none;
+	margin: 0;
+	padding: 0px 0px 10px 0px;
+
+
+	}
+
+.sidebar1 ul ul ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	border:0;
+
+	}
+
+.sidebar1 ul ul ul ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	border:0;
+	}
+	
+.sidebar1 ul li {
+	height:100%;
+	line-height:18px;
+	}
+
+.sidebar1 ul li a:link, .sidebar1 ul li a:visited {
+	color: #606975;
+	text-decoration: none;
+	padding: 5px 0px 5px 5px;
+	display:block;
+	font-family: Arial, century gothic,Georgia,helvetica, sans-serif;
+	background:#03070d;
+	border-bottom:1px solid #020408;
+	}
+
+.sidebar1 ul li a:hover {
+	background:#070d17;
+	color:#bacbda;
+	}
+
+.sidebar1 p {
+	padding: 7px 10px;
+	margin:0;
+	}
+
+.sidebar1 table {
+	width:100%;
+	text-align:center;
+	background:#03070d;
+	}	
+	
+	
+/* The Sidebar2 */	
+.sidebar2{
+	float:right;
+	width:500px;
+	padding-top:10px;
+	padding-right:10px;
+	font-size:12px;
+	font-family:  century gothic,Arial,Georgia, sans-serif;
+	}
+
+.sidebar2 h2 {
+	height:30px;
+	line-height:30px;
+	font-size:18px;
+	color:#fff;
+	margin:0px 0 0 0 ;
+	padding:0px 0 0 5px;
+	background:url(images/sh2.jpg);
+	font-weight:normal
+	}
+
+.sidebar2 ul {
+	list-style-type: none;
+	margin: 0 ;
+	padding: 0;
+
+	}
+
+.sidebar2 ul ul  {
+	list-style-type: none;
+	margin: 0;
+	padding: 0px 0px 10px 0px;
+
+	}
+
+.sidebar2 ul ul ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	border:0;
+
+	}
+
+.sidebar2 ul ul ul ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	border:0;
+
+	}
+	
+.sidebar2 ul li {
+	height:100%;
+	line-height:18px;
+	}
+
+.sidebar2 ul li a:link, .sidebar2 ul li a:visited {
+	color: #606975;
+	text-decoration: none;
+	padding: 5px 0px 5px 5px;
+	display:block;
+	font-family: Arial, century gothic,Georgia,helvetica, sans-serif;
+	background:#03070d;
+	border-bottom:1px solid #020408;
+	}
+
+.sidebar2 ul li a:hover {
+	background:#070d17;
+	color:#bacbda;
+	}
+
+.sidebar2 p {
+	padding: 7px 10px;
+	margin:0;
+	
+	}
+
+.sidebar2 table {
+
+	width:100%;
+	text-align:center;
+	background-color:#03070d;
+	}

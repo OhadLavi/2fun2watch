@@ -2,7 +2,7 @@
 if (isset($_POST['doShort'])) {
 $url = $_POST['url'];
 if (empty($url))
-echo '<div class="error">please provide a vaild url</div>';
+echo '<div align="center">קישור לא תקין</div>';
 
 else {
 $address = "http://www.2fun2watch.com/st/index.php?url=";
@@ -31,7 +31,7 @@ $connect = @mysql_connect("free4watchcom.ipagemysql.com", "hapoel", "hapoel1");
 $select = @mysql_select_db("hapoel", $connect);
 if(!$select)
 {
-echo 'could not connect to the sql';
+echo 'Could not connect to the sql';
 }
 
 $query = "SELECT short  FROM `short_urls` WHERE `short` = '$out'";
@@ -50,12 +50,12 @@ function select2() { document.getElementById("newurl").select(); }
 function select3() { document.getElementById("delete").select(); }
 function select4() { document.getElementById("setup").select(); }
 </script>
-<textarea id="iframe" onclick="select0()" cols="40" rows="1"><iframe src="<?php echo $newurl; ?>" frameBorder="0" width="400" height="400" SCROLLING="NO"></iframe></textarea>
+<textarea id="iframe" onclick="select0()" cols="30" rows="1"><iframe src="<?php echo $newurl; ?>" frameBorder="0" width="400" height="400" SCROLLING="NO"></iframe></textarea> :לינק לאתר 
 <?php
-echo '<div class="success"><input type="text" name="original" id="original" value="' . $url . '" size="40" onclick="select1()" /> :your original link</div>';
-echo '<div class="success"><input type="text" name="newurl" id="newurl" value="' . $newurl . '" size="40" onclick="select2()"  /> :your shorted link</div>';
-echo '<div class="success"><input type="text" name="delete" id="delete" value="' . $delete2 . '" size="40" onclick="select3()"  /> :to delete link</div>';
-echo '<div class="success"><input type="text" name="setup" id="setup" value="' . $setup2 . '" size="40" onclick="select4()"  /> :to setup link</div>';
+echo '<div class="success"><input type="text" name="original" id="original" value="' . $url . '" size="40" onclick="select1()" /> :קישור מקורי</div>';
+echo '<div class="success"><input type="text" name="newurl" id="newurl" value="' . $newurl . '" size="40" onclick="select2()"  /> :קישור מקוצר</div>';
+echo '<div class="success"><input type="text" name="delete" id="delete" value="' . $delete2 . '" size="40" onclick="select3()"  /> :למחיקת קישור מקוצר</div>';
+echo '<div class="success"><input type="text" name="setup" id="setup" value="' . $setup2 . '" size="40" onclick="select4()"  /> :לשנות קישור</div>';
 }
 }
 }

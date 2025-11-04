@@ -1,9 +1,27 @@
-# Webalizer V2.01-10 Incremental Data - 06/02/2012 15:42:12
-2012 6 2 15 42 12
-2469 669 54 182 27 21 7333539 511 188 0
-43 8 461 1 2
-1434 441 5666649 36 311 105
-1035 228 1666890 43 200 83
+# Webalizer V2.01-10 Incremental Data - 10/20/2012 07:52:17
+2012 10 20 7 52 17
+4121 1864 272 97 17 26 14297381 3279 990 0
+12 7 119 1 20
+204 85 872257 33 173 52
+183 91 525893 37 152 53
+163 64 463962 32 144 47
+191 114 803704 24 124 40
+236 77 654060 27 202 63
+171 73 714713 32 141 55
+212 75 680767 23 187 48
+219 115 988509 31 150 55
+186 109 686817 26 129 49
+146 84 833803 22 113 31
+155 80 388312 21 119 41
+209 86 610991 19 174 55
+186 92 441847 16 141 47
+165 75 426434 16 128 36
+446 161 1264939 23 410 58
+153 71 402419 24 130 49
+242 119 1173192 25 173 45
+442 196 1564858 56 303 99
+160 62 492117 37 140 60
+52 35 307787 12 46 15
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -15,70 +33,52 @@
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-9 3 10406 6
-20 8 61796 18
-385 59 339171 37
-467 48 262084 60
-57 44 615687 37
-23 8 77081 23
-14 8 86796 8
-456 201 2854976 87
-402 125 1859068 58
-56 7 62401 14
-18 9 19182 17
-10 5 18288 7
-35 28 178322 14
-222 41 284555 26
-186 39 265676 19
-15 3 35316 13
-30 21 161052 10
-10 2 22186 9
-8 1 10493 7
-14 3 28878 12
-7 0 14337 7
-7 2 4038 5
-11 3 25787 10
-7 1 35963 7
+114 31 155906 96
+134 63 310895 103
+122 42 210731 95
+155 69 324022 112
+796 531 6020969 720
+226 62 988481 208
+162 45 567145 138
+246 67 465155 218
+118 35 116543 97
+152 70 411901 93
+239 142 703944 177
+112 42 176508 86
+161 80 442067 95
+93 21 100958 76
+114 77 417402 49
+77 36 149371 55
+81 34 109269 61
+140 49 524520 115
+220 106 857696 132
+123 32 125063 102
+142 28 191409 124
+182 111 384934 159
+122 59 409239 99
+90 32 133253 69
 0
 0
 0
-669
-0
-0
-0
-0
-0
-1
-0
-37
-8
-0
-1604
+1864
 0
 0
 0
 0
 0
 0
-150
+0
+336
+0
+0
+1004
+0
+0
+0
+0
+0
+0
+915
 0
 0
 0
@@ -92,778 +92,1161 @@
 0
 0
 0
-0
+2
 0
 0
 0
 0
 0
 # -urls- 
-/wp-includes/js/tinymce/wp-tinymce.php
-0 1 980448372 95812 0 0
-/wp-admin/images/date-button.gif
-1 1 2 420 0 0
-/בדיקה/
-0 10 40 48294 1 0
-/wp-includes/js/tw-sack.js
-0 1 1999580986 1568 0 0
-/wp-admin/plugins.php
-0 3 24 94676 0 0
 /
-0 197 0 634452 57 37
-/wp-content/themes/GamesMania/images/comments.png
-1 2 0 1430 0 0
-/wp-content/themes/GamesMania/images/search.gif
-1 106 3610094295 33576 0 0
-/wp-includes/images/wpicons.png
-1 1 825193325 21372 0 0
-/wp-admin/images/button-grad.png
-1 1 135638384 552 0 0
-/wp-content/plugins/jetpack/_inc/images/vaultpress.png
-1 1 56 21276 0 0
-/wp-includes/js/tinymce/plugins/wpeditimage/img/image.png
-1 1 72 4012 0 0
-/wp-admin/options-privacy.php
-0 2 24 46018 0 0
+0 1110 0 2017314 263 142
 /wp-admin/css/wp-admin.css
-0 3 0 230984 0 0
-/wp-admin/css/ie-rtl.css
-0 1 1835609953 1402 0 0
+0 1 1 108583 0 0
+/wp-content/themes/gamezine/images/sh2.jpg
+1 6 0 34254 0 0
+/wp-content/uploads/2011/12/glee-3d-300x207-150x150.gif
+1 6 0 91326 0 0
 /wp-content/uploads/2012/03/prettylitleliars11-150x150.jpg
-1 1 56 12558 0 0
-/wp-admin/images/wp-badge.png
-1 1 1836016424 14665 0 0
-/wp-includes/js/tinymce/plugins/spellchecker/css/content.css
-0 1 0 467 0 0
-/wp-content/plugins/jetpack/_inc/images/icons/shortcodes.png
-1 1 40 1479 0 0
+1 6 0 75348 0 0
+/wp-content/plugins/wp-postratings/images/stars/rating_over.gif
+1 6 0 7380 0 0
 /wp-content/uploads/2012/03/spartacus-vengeance-episode-202x3002-150x150.jpg
-1 1 1920099668 10256 0 0
-/wp-content/plugins/jetpack/_inc/images/widgets.png
-1 1 0 43596 0 0
-/wp-admin/
-0 2 0 30072 0 0
-/wp-content/plugins/jetpack/_inc/images/stats.gif
-1 1 40 11835 0 0
-/wp-admin/images/align-none.png
-1 1 26480 763 0 0
-/wp-content/themes/GamesMania/images/pagenav-hover.png
-1 86 1868770920 20910 0 0
-/wp-content/plugins/jetpack/_inc/images/comingsoon.png
-1 1 0 2460 0 0
+1 1 52 10256 0 0
+/wp-content/themes/gamezine/images/mpost.jpg
+1 6 0 33480 0 0
 /wp-content/uploads/2012/03/spartacus-vengeance-episode-202x300-150x150.jpg
-1 1 0 10256 0 0
-/wp-admin/images/align-center.png
-1 1 0 881 0 0
-/wp-content/themes/GamesMania/screenshot.jpg
-1 1 1919298931 26620 0 0
-/wp-content/plugins/jetpack/_inc/jetpack.js
-0 1 0 3545 0 0
-/wp-content/themes/twentyten/screenshot.png
-1 1 1869050469 35236 0 0
-/wp-content/themes/GamesMania/menu/mootools-1.2.5-core-yc.js
-0 107 32 279943 0 0
-/wp-includes/js/imgareaselect/imgareaselect.css
-0 1 1338073286 633 0 0
-/wp-admin/post-new.php
-0 1 1853187634 82822 0 0
+1 6 0 61536 0 0
+/wp-content/plugins/wp-postratings/images/loading.gif
+1 6 0 6486 0 0
+/wp-content/themes/gamezine/images/page.jpg
+1 6 0 3822 0 0
 /search/1/feed/rss2/
-0 1 4294967295 1158 0 0
-/wp-content/plugins/jetpack/_inc/images/icons/latex.png
-1 1 64 1541 0 0
-/wp-admin/images/white-grad-active.png
-1 1 0 532 0 0
+0 1 53 1257 0 0
+/wp-content/themes/gamezine/js/slider.js
+0 11 0 55188 0 0
 /wp-admin/admin-ajax.php
-0 12 72 3378 0 0
-/wp-admin/images/comment-grey-bubble.png
-1 1 1868770920 467 0 0
-/wp-content/themes/GamesMania/images/nav-hover.png
-1 85 1868770920 20045 0 0
-/wp-admin/images/menu-shadow-rtl.png
-1 2 795633966 2402 0 0
-/wp-admin/options-media.php
-0 1 1953394531 26399 0 0
-/wp-includes/js/tinymce/plugins/wpgallery/img/edit.png
-1 1 16 2110 0 0
-/wp-content/plugins/jetpack/_inc/images/logo.png
-1 1 0 18974 0 0
-/wp-admin/images/align-left.png
-1 1 40 897 0 0
-/wp-content/uploads/2012/03/spartacus-vengeance-episode-202x3001-150x150.jpg
-1 1 40 10256 0 0
-/wp-includes/images/down_arrow.gif
-1 1 116 368 0 0
-/wp-admin/images/xit.gif
-1 1 0 491 0 0
+0 1 0 1065 1 0
+/wp-content/uploads/2011/12/Homeland.jpg
+1 2 0 32476 0 0
+/wp-content/themes/gamezine/glide.css
+0 11 0 26002 0 0
+/wp-content/uploads/2012/02/51urSnEhU2L._SX500_-300x2253-150x150.jpg
+1 6 0 59250 0 0
+/wp-content/themes/gamezine/images/searchb.jpg
+1 6 0 43224 0 0
+/wp-content/uploads/2012/03/prettylitleliars11.jpg
+1 1 0 14640 0 0
+/wp-content/themes/gamezine/images/smit2.jpg
+1 6 0 65346 0 0
+/wp-content/themes/gamezine/js/hover.js
+0 11 0 6415 0 0
 /page/2/
-0 1 1089049344 2332 1 0
+0 48 0 339505 18 8
 /wp-includes/wlwmanifest.xml
-0 2 48 2726 0 0
-/wp-admin/images/resize-rtl.gif
-1 1 0 1729 0 0
-/wp-includes/js/tinymce/plugins/wpgallery/img/delete.png
-1 1 0 1949 0 0
-/wp-includes/js/tinymce/themes/advanced/skins/wp_theme/content.css
-0 1 1663983992 1525 0 0
-/wp-content/plugins/jetpack/_inc/images/icons/subscriptions.png
-1 1 829698356 2525 0 0
-/wp-content/plugins/jetpack/_inc/jetpack-rtl.css
-0 2 1 2156 0 0
+0 20 0 27240 0 0
 /wp-cron.php
-0 9 48 9 6 3
+0 171 0 171 125 123
 /wp-admin/css/wp-admin-rtl.css
-0 3 24 67694 0 0
-/wp-includes/js/tinymce/plugins/wpeditimage/img/delete.png
-1 1 775499617 1949 0 0
-/wp-admin/images/list.png
-1 1 24 1415 0 0
-/wp-content/plugins/akismet/akismet.css
-0 1 1663920995 864 0 0
-/wp-includes/css/admin-bar-rtl.css
-0 30 24 7775 0 0
-/wp-admin/edit-comments.php
-0 3 3610076517 265971 0 0
-/wp-content/themes/GamesMania/images/wrapper-background.png
-1 106 24 25220 0 0
-/wp-admin/images/media-button.png
-1 1 0 3428 0 0
-/wp-includes/js/thickbox/tb-close.png
-1 1 24 816 0 0
-/wp-content/uploads/2012/01/הורד.jpg
-1 1 48 7592 0 0
+0 1 5 32599 0 0
+/wp-content/uploads/2011/12/images.jpg
+1 1 0 7675 0 0
 /wp-content/uploads/2012/03/bigbrother2-150x150.jpg
-1 1 48 4774 0 0
+1 3 0 14322 0 0
+/wp-content/themes/gamezine/js/glide.js
+0 11 0 31862 0 0
+/wp-content/uploads/2011/12/Nikita-202x300.jpg
+1 1 0 15018 0 0
+/wp-content/themes/gamezine/js/jquery-ui-personalized-1.5.2.packed.js
+0 10 0 57541 0 0
+/wp-content/themes/gamezine/js/superfish.js
+0 11 0 22928 0 0
+/wp-content/themes/gamezine/tabs.css
+0 11 0 19741 0 0
 /xmlrpc.php
-0 4 0 1776 1 0
-/wp-content/themes/GamesMania/images/screen.png
-1 1 24 3971 0 0
-/wp-content/themes/GamesMania/css/ie.css
-0 104 3616921504 28723 0 0
+0 25 0 4266 2 3
+/wp-content/themes/gamezine/images/com.jpg
+1 1 0 10728 0 0
+/בדיקה-12/
+0 27 0 222774 6 15
 /feed/
-0 3 1869377653 6384 0 1
-/wp-content/plugins/jetpack/_inc/images/contact-form.jpg
-1 1 1650944354 15189 0 0
+0 29 0 214111 5 0
+/בדיקה-13/
+0 39 0 272568 18 9
+/wp-content/themes/gamezine/images/pagea.jpg
+1 1 0 648 0 0
 /wp-content/languages/he_IL.css
-0 3 135638872 3497 0 0
-/wp-admin/options-writing.php
-0 1 1953394531 31037 0 1
-/wp-content/plugins/jetpack/_inc/images/shortcodes.png
-1 1 0 21038 0 0
+0 2 4 5344 0 0
+/בדיקה-14/
+0 24 0 223134 3 2
 /robots.txt
-0 41 24 12546 0 0
-/wp-includes/js/thickbox/thickbox.css
-0 1 761621865 1435 0 0
-/wp-includes/images/blank.gif
-1 1 40 351 0 0
-/wp-admin/index-extra.php
-0 4 758328686 5328 1 1
-/wp-content/plugins/jetpack/_inc/images/icons/widgets.png
-1 1 0 1485 0 0
-/tag/test-test-test/
-0 1 48 8835 0 0
-/wp-content/plugins/jetpack/_inc/images/icons/sharedaddy.png
-1 1 16 2667 0 0
-/wp-content/themes/GamesMania/images/nav.png
-1 106 1684370021 24460 0 0
-/wp-admin/load-scripts.php
-0 13 1969447284 425260 0 1
+0 468 0 143208 0 0
+/בדיקה-15/
+0 21 0 222263 1 1
+/wp-content/plugins/wp-paging/css/style.css
+0 8 0 19978 0 0
+/wp-content/uploads/2012/03/bigbrother2.jpg
+1 1 0 4186 0 0
+/בדיקה-16/
+0 28 0 235683 7 3
+/wp-content/themes/gamezine/images/cata.jpg
+1 2 0 1430 0 0
+/author/Rodex/
+0 3 5 9588 0 0
+/בדיקה-17/
+0 32 0 276844 10 5
+/wp-content/plugins/wp-postratings/images/stars/rating_on.gif
+1 6 0 4998 0 0
 /wp-admin/css/colors-fresh.css
-0 3 0 76592 0 0
-/wp-admin/images/align-right.png
-1 1 775040561 866 0 0
-/wp-content/plugins/jetpack/_inc/images/subscriptions.png
-1 1 40 32842 0 0
+0 20 0 733040 0 0
+/בדיקה-23/feed/
+0 20 0 32460 0 0
+/wp-content/themes/gamezine/images/head.jpg
+1 6 0 253656 0 0
 /favicon.ico
-0 15 73 9465 0 0
-/wp-admin/images/menu-bits-rtl.gif
-1 1 0 1578 0 0
-/wp-content/plugins/jetpack/_inc/images/icons/gravatar-hovercards.png
-1 1 842018867 2377 0 0
-/wp-admin/images/bubble_bg-rtl.gif
-1 1 1714368314 710 0 0
-/wp-admin/images/white-grad.png
-1 1 24 519 0 0
-/wp-content/uploads/2012/02/bigbrother5.jpg
-1 1 1818832495 4186 0 0
-/wp-admin/media-upload.php
-0 2 24 93529 0 0
-/wp-content/plugins/jetpack/_inc/images/sharedaddy.gif
-1 1 40 9505 0 0
-/wp-includes/css/editor-buttons.css
-0 1 2513938391 6582 0 0
-/wp-content/plugins/all-in-one-seo-pack/images/WD_wordpress_450x50.gif
-1 1 0 10531 0 0
-/wp-content/themes/twentyten/images/wordpress.png
-1 1 825112627 1159 0 0
-/wp-content/uploads/2012/02/fringe.jpg
-1 1 24 9684 0 0
-/wp-admin/images/menu-bits.gif
-1 1 0 1450 0 0
+0 14 0 6284 0 0
+/בדיקה-18/
+0 27 0 224978 6 3
+/בדיקה-17/feed/
+0 20 0 32460 0 0
+/בדיקה-19/
+0 26 0 223236 5 4
+/wp-content/themes/gamezine/js/hoverIntent.js
+0 11 0 19503 0 0
+/wp-content/plugins/wp-postratings/images/stars/rating_half.gif
+1 3 0 2499 0 0
+/wp-content/uploads/2011/12/Dexter-season-6-202x300.jpg
+1 2 0 48948 0 0
+/category/series-2/page/2/
+0 8 0 50096 1 1
+/wp-content/uploads/2012/03/spartacus-vengeance-episode-202x300.jpg
+1 1 0 23529 0 0
 /wp-content/themes/twentyten/style.css
-0 2 0 30683 0 0
+0 1 0 6190 0 0
+/wp-content/plugins/wp-postratings/postratings-css.css
+0 11 0 10252 0 0
 /wp-content/uploads/2012/03/bigbrother1-150x150.jpg
-1 1 0 4774 0 0
-/wp-content/themes/GamesMania/menu/MenuMatic.css
-0 107 1836016430 39555 0 0
-/wp-admin/options-discussion.php
-0 3 1953394531 106557 0 0
+1 6 0 28644 0 0
 /wp-content/themes/twentyten/images/headers/path.jpg
 1 1 0 52041 0 0
-/wp-content/plugins/all-in-one-seo-pack/images/hub_420_wordpress.png
-1 1 40 11269 0 0
-/wp-content/uploads/2012/03/bigbrother-150x150.jpg
-1 1 1936026977 4774 0 0
-/wp-content/plugins/all-in-one-seo-pack/images/twitter.jpg
-1 1 0 7317 0 0
 /category/series-2/feed/
-0 1 48 2172 0 0
-/wp-content/themes/GamesMania/images/bullet.png
-1 103 0 24275 0 0
-/wp-content/plugins/jetpack/_inc/images/jetpack-closebox-icon.png
-1 1 1869442930 698 0 0
-/wp-content/plugins/jetpack/_inc/images/icons/stats.png
-1 1 1 2396 0 0
-/wp-content/plugins/jetpack/_inc/images/after-the-deadline.gif
-1 1 0 13210 0 0
+0 4 0 29704 1 1
+/wp-content/uploads/2012/03/spartacus-vengeance-episode-202x3001.jpg
+1 1 0 23529 0 0
 /wp-login.php
-0 7 1 16402 0 2
-/wp-admin/images/logo-login.png
-1 1 1702047077 9203 0 0
-/wp-content/plugins/all-in-one-seo-pack/images/headwaybanner.png
-1 1 825307186 12328 0 0
-/wp-admin/users.php
-0 1 0 32788 0 0
-/wp-content/plugins/jetpack/_inc/images/latex.gif
-1 1 1095786328 12671 0 0
-/wp-content/plugins/jetpack/_inc/images/icons/vaultpress.png
-1 1 0 2062 0 0
-/wp-admin/images/arrows.png
-1 2 28015 1608 0 0
-/wp-admin/update.php
-0 1 1999580986 7046 1 0
-/wp-content/plugins/jetpack/_inc/images/hovercard.png
-1 1 1852845683 77225 0 0
+0 127 0 398282 9 7
+/2fun2watch.com_sitemap.xml
+0 2 0 541976 0 0
+/wp-content/themes/gamezine/js/jquery-1.2.6.min.js
+0 11 0 227465 0 0
 /wp-content/uploads/2012/03/462944763b7681b032d80cb1409c812b1-150x150.gif
-1 1 1 13486 0 0
-/wp-content/plugins/jetpack/_inc/images/header-clouds-20110719.png
-1 1 0 68928 0 0
-/wp-admin/images/sort.gif
-1 1 2866260439 362 0 0
-/wp-content/plugins/jetpack/_inc/images/icons/contact-form.png
-1 1 1869377653 806 0 0
-/wp-content/themes/twentyten/rtl.css
-0 2 0 6679 0 0
-/wp-content/plugins/jetpack/_inc/images/footer-clouds-20110719.png
-1 1 0 29116 0 0
-/wp-admin/options-general.php
-0 6 1684370019 341522 0 0
-/wp-content/uploads/2012/02/bigbrother.jpg
-1 1 762802024 4186 0 0
-/wp-content/themes/GamesMania/menu/MenuMatic_0.68.3.js
-0 107 80 92882 0 0
-/wp-admin/images/press-this.png
-1 1 1088276864 1128 0 0
-/wp-content/themes/GamesMania/images/logo.png
-1 106 0 101162 0 0
-/wp-includes/js/admin-bar.js
-0 27 846099814 8074 0 0
-/wp-content/uploads/2012/02/bigbrother2.jpg
-1 1 0 4186 0 0
-/wp-includes/js/tinymce/plugins/wordpress/css/content.css
-0 1 0 663 0 0
+1 6 0 80916 0 0
+/wp-content/themes/gamezine/images/cat.png
+1 2 0 1862 0 0
+/wp-includes/js/jquery/jquery.js
+0 9 0 367253 0 0
+/wp-content/themes/gamezine/images/sf.jpg
+1 6 0 64818 0 0
+/wp-content/uploads/2012/03/prettylitleliars1.jpg
+1 1 0 14640 0 0
+/בדיקה-15/feed/
+0 20 0 32220 0 0
+/wp-content/plugins/wp-postratings/images/stars/rating_off.gif
+1 6 0 3816 0 0
+/wp-content/themes/gamezine/images/navig.jpg
+1 6 0 59250 0 0
 /tag/test-test-test/feed/
-0 1 48 2169 0 0
-/wp-content/themes/GamesMania/css/print.css
-0 108 1999580986 34077 0 0
-/wp-content/plugins/all-in-one-seo-pack/images/donate.jpg
-1 1 1768776801 7482 0 0
-/wp-content/themes/GamesMania/style.css
-0 107 1868770920 137919 0 0
-/wp-content/themes/twentyeleven/screenshot.png
-1 1 24 63191 0 0
-/wp-includes/js/tinymce/themes/advanced/img/icons.gif
-1 1 0 12103 0 0
-/wp-admin/images/generic.png
-1 1 0 3891 0 0
-/wp-admin/load-styles.php
-0 5 1718574947 135661 0 0
-/wp-admin/images/icons32.png
-1 1 24 13754 0 0
-/wp-content/plugins/jetpack/_inc/images/jp-icon.png
-1 1 1999580986 2632 0 0
-/wp-admin/css/ie.css
-0 1 40 2585 0 0
-/wp-content/themes/GamesMania/images/folder.png
-1 9 1869377653 3777 0 0
-/wp-content/uploads/2012/02/bigbrother1.jpg
-1 1 1836345390 4186 0 0
-/wp-admin/images/wpspin_light.gif
-1 1 846099814 2504 0 0
-/wp-content/plugins/jetpack/_inc/images/cloudybox-back.png
-1 1 0 827 0 0
-/wp-content/plugins/all-in-one-seo-pack/images/themefuse_banner_a.jpg
-1 1 1084341248 75921 0 0
-/wp-content/plugins/jetpack/_inc/images/automattic.png
-1 1 1768776801 1354 0 0
-/feed/atom/
-0 1 48 2196 0 0
-/wp-content/themes/GamesMania/css/screen.css
-0 107 2513938391 64624 0 0
-/wp-content/plugins/jetpack/_inc/images/icons/shortlinks.png
-1 1 0 1980 0 0
-/wp-content/plugins/jetpack/_inc/jetpack.css
-0 2 26723 8835 0 0
-/wp-includes/images/toggle-arrow.png
-1 1 2513938647 3537 0 0
-/wp-content/themes/GamesMania/images/tag.png
-1 9 0 3924 0 0
-/wp-admin/post.php
-0 2 0 177327 0 0
-/wp-includes/images/admin-bar-sprite.png
-1 28 846099814 18080 0 0
-/wp-admin/admin.php
-0 1 0 46846 0 0
-/בדיקה/feed/
-0 3 0 2435 1 0
-/wp-includes/js/thickbox/loadingAnimation.gif
-1 1 1919627125 6198 0 0
-/wp-content/plugins/akismet/akismet.js
-0 1 825058660 1874 0 0
-/wp-content/plugins/all-in-one-seo-pack/images/amazon.jpg
-1 1 1 6122 0 0
-/wp-admin/images/menu.png
-1 2 0 13460 0 0
-/wp-content/uploads/2012/03/The-big-bang-theory.jpg
-1 80 761619310 123012 0 0
+0 1 0 1242 1 1
+/wp-content/themes/gamezine/style.css
+0 11 0 55814 0 0
+/wp-content/uploads/2011/12/Two-and-a-Half-Men-202x300.jpg
+1 1 0 19773 0 0
+/wp-content/uploads/2011/12/House-202x300.jpg
+1 2 0 37740 0 0
+/wp-content/plugins/wp-postratings/postratings-js.js
+0 8 0 11136 0 0
+/wp-content/themes/gamezine/images/body.jpg
+1 6 0 7842 0 0
+/wp-content/uploads/2011/11/untitledfds.png
+1 2 0 167136 0 0
+/בדיקה-20/
+0 32 0 255742 9 6
+/בדיקה-21/
+0 25 0 217985 5 4
+/2012/08/
+0 33 0 441381 8 2
+/בדיקה-22/
+0 24 0 221943 4 4
+/wp-content/uploads/2012/02/images-150x150.jpg
+1 6 0 56856 0 0
+/בדיקה-23/
+0 29 0 259060 7 3
 /wp-content/uploads/2012/03/spartacus-vengeance-episode-202x3003-150x150.jpg
-1 1 1936026977 10256 0 0
-/wp-content/plugins/jetpack/_inc/images/shortlinks.gif
-1 1 1093918442 12681 0 0
-/wp-content/themes/GamesMania/images/background.jpg
-1 106 1868770920 863188 0 0
-/wp-admin/edit.php
-0 1 2799148247 512763 0 0
-/wp-includes/css/admin-bar.css
-0 30 1932357221 9180 0 0
-/wp-content/plugins/jetpack/_inc/images/icons/after-the-deadline.png
-1 1 1 1842 0 0
+1 6 0 61536 0 0
+/בדיקה-24/
+0 33 0 244644 11 5
 /wp-content/uploads/2012/03/The-big-bang-theory-150x150.jpg
-1 1 1338310711 10464 0 0
-/בדיקה/feed/atom/
-0 1 48 1122 0 0
-/wp-admin/update-core.php
-0 1 1868770920 25698 0 0
-/wp-includes/js/tinymce/plugins/inlinepopups/skins/clearlooks2/window.css
-0 1 24 1890 0 0
+1 7 0 73248 0 0
+/2012/08/page/2/
+0 5 0 39809 1 1
+/wp-content/themes/gamezine/images/vanila.jpg
+1 2 0 10018 0 0
 /category/series-2/
-0 8 1868719468 29886 0 0
-/wp-content/plugins/jetpack/_inc/images/icons/enhanced-distribution.png
-1 1 0 1618 0 0
-/wp-admin/themes.php
-0 2 2513933271 68160 0 0
-/wp-admin/images/wpspin_dark.gif
-1 1 1 2858 0 0
+0 36 0 472103 10 5
 # End Of Table - urls
 # -sites- (monthly)
-66.249.72.150
-0 1 0 1827 1 1338530329
+157.56.93.153
+0 1 1 306 0 0
 -
-66.249.72.151
-0 2 0 7161 2 1338635887
--
-66.249.72.152
-0 1 0 2442 1 1338569367
--
-66.249.72.153
-0 1 1 2332 1 1338548211
+157.55.32.164
+0 13 3 29947 7 1350646606
 /page/2/
-66.249.72.154
-0 2 0 8989 2 1338599434
+157.55.32.166
+0 20 9 28362 9 1349814432
 -
-66.249.72.155
-0 3 1 5758 3 1338575306
+66.249.73.161
+0 1 1 306 0 0
 -
-66.249.72.168
-0 2 0 7531 2 1338578715
+184.154.164.186
+0 159 126 1565010 6 1350103080
+/בדיקה-12/
+157.55.32.186
+0 3 1 4157 2 1349570669
+-
+157.55.32.189
+0 31 4 71816 7 1350458494
+-
+66.249.71.100
+0 1 1 306 0 0
+-
+66.249.71.102
+0 2 1 8601 1 1349081373
 /
-66.249.72.169
-0 1 0 6794 1 1338612629
--
-188.134.91.146
-0 1 0 4420 1 1338631121
--
-65.52.104.28
-0 15 4 26796 8 1338612403
+79.179.192.145
+0 1 0 143 1 1349141851
 /
-95.108.158.240
-0 2 2 7898 0 0
+66.249.71.106
+0 5 0 6833 1 1350534335
+-
+66.249.71.107
+0 4 0 5374 2 1350633909
+-
+66.249.71.108
+0 5 1 12794 3 1350678839
+/feed/
+157.55.32.190
+0 15 7 16337 8 1350563117
+-
+157.56.93.187
+0 10 4 16392 6 1349440806
+-
+66.249.71.115
+0 5 4 16485 2 1349227628
+/
+66.249.71.116
+0 1 0 2925 1 1349169374
+-
+66.249.71.117
+0 3 1 4157 2 1349253835
+/
+95.108.248.29
+0 1 0 557 1 1350396500
+/
+109.67.220.93
+0 43 42 281785 2 1350467341
+/wp-admin/admin-ajax.php
+184.154.196.90
+0 124 100 1139584 5 1350362228
+/בדיקה-12/
+157.55.32.57
+0 1 0 926 1 1349524775
+/
+157.55.32.58
+0 106 30 195988 34 1350586586
+-
+173.199.115.91
+0 1 1 4691 1 1349451197
+/
+91.224.160.143
+0 1 0 453 1 1349748147
+-
+188.72.202.63
+0 2 0 16738 2 1349142437
 -
 98.158.20.227
-0 2 0 286 1 1338651394
-/בדיקה/feed/
-98.158.20.228
-0 1 0 143 1 1338621027
+0 1 0 143 1 1350023212
 /
-108.166.95.108
-0 2 1 2755 1 1338606269
-/feed/
-98.158.20.232
-0 1 0 143 1 1338635586
+157.55.32.81
+0 39 3 113093 9 1349511753
+/
+157.55.32.82
+0 14 7 13267 7 1350602979
+-
+157.55.32.84
+0 3 1 3764 2 1349147184
+-
+157.55.32.86
+0 8 3 8324 5 1350655340
+-
+98.158.20.231
+0 1 0 143 1 1349496531
+/
+98.158.20.233
+0 2 0 286 2 1350541764
+/
+98.158.20.234
+0 1 0 143 1 1349763969
 /
 98.158.20.237
-0 1 1 1146 1 1338607220
-/בדיקה/feed/
-178.16.129.27
-0 3 3 18711 3 1338646237
+0 1 0 143 1 1349234064
 /
-37.113.8.189
-0 36 21 242260 14 1338646706
-/
-178.154.200.147
-0 4 4 6394 2 1338642825
-/
-65.52.110.153
-0 12 1 25834 10 1338645645
+157.55.32.93
+0 10 3 14179 6 1349789145
 -
-194.60.207.172
-0 2 1 9340 1 1338611176
+157.55.32.96
+0 5 1 9600 2 1349467040
+-
+157.55.32.98
+0 4 2 1713 2 1349875851
+-
+157.55.34.35
+0 10 2 16841 4 1349696472
+-
+110.142.78.177
+0 5 5 17970 1 1349140298
+/wp-login.php
+67.212.188.154
+0 60 48 520023 2 1350534687
+/בדיקה-12/
+157.56.229.88
+0 22 3 47496 5 1350588101
+-
+157.56.229.186
+0 3 2 1177 1 1349882309
+-
+173.199.119.27
+0 1 1 4695 1 1350016630
 /
-65.52.108.12
-0 16 5 26457 10 1338649393
+65.55.52.94
+0 1 1 306 0 0
 -
-65.52.110.192
-0 13 2 21825 9 1338645521
+65.55.52.97
+0 16 0 46816 5 1350588814
 -
+23.22.18.215
+0 2 1 5220 1 1349842049
+/
+66.249.71.14
+0 2 0 2782 2 1350638915
+-
+66.249.71.15
+0 2 0 2648 2 1350635111
+-
+66.249.71.17
+0 1 0 2926 1 1350504292
+-
+66.249.76.205
+0 1 1 4689 1 1349824177
+/
+66.249.76.206
+0 1 1 306 0 0
+-
+66.249.71.25
+0 3 0 6776 3 1349252772
+/
+66.249.71.27
+0 2 1 3331 1 1349161356
+/
+180.76.6.222
+0 1 1 3364 1 1349683699
+/בדיקה-13/
+180.76.6.224
+0 1 1 3676 1 1349154952
+/בדיקה-23/
+66.249.71.39
+0 1 1 10464 0 0
+-
+173.199.119.59
+0 1 1 4702 1 1350717225
+/
+66.249.71.40
+0 4 0 5581 2 1350673837
+-
+66.249.71.41
+0 2 0 2825 2 1350635747
+-
+180.76.6.230
+0 1 1 4702 1 1350631511
+/
+66.249.71.42
+0 1 1 270988 0 0
+-
+180.76.6.231
+0 1 1 3363 1 1350435815
+/בדיקה-20/
+66.249.71.43
+0 3 1 2158 2 1349261087
+/
+66.249.71.44
+0 2 1 3231 1 1349260414
+-
+180.76.6.232
+0 1 1 3349 1 1349421424
+/בדיקה-21/
+66.249.71.48
+0 4 0 5584 2 1350635085
+-
+66.249.71.49
+0 2 0 2787 2 1350676921
+-
+157.55.36.37
+0 6 2 9959 4 1350679126
+-
+157.55.36.39
+0 28 10 51442 12 1350172565
+/
+66.249.71.50
+0 2 0 2834 1 1350533077
+-
+157.55.36.49
+0 24 11 34680 12 1349223368
+-
+66.249.71.68
+0 5 1 5551 4 1350678263
+-
+66.249.71.69
+0 5 0 6906 3 1350674541
+-
+178.154.243.102
+0 1 0 542 1 1350520501
+/
+178.154.243.104
+0 1 1 4695 1 1350673792
+/
+178.154.243.106
+0 1 0 2926 1 1350690413
+-
+178.154.243.107
+0 1 0 2926 1 1350684351
+-
+66.249.71.70
+0 1 0 1269 1 1350532096
+-
+66.249.71.71
+0 1 0 1423 1 1350532784
+-
+66.249.71.72
+0 5 0 7041 1 1350533577
+-
+38.100.21.67
+0 11 11 146301 1 1350064571
+/בדיקה-23/
+66.249.71.73
+0 4 0 5604 2 1350534911
+-
+66.249.71.77
+0 6 0 8258 4 1350673811
+-
+66.249.71.78
+0 1 0 2926 1 1350639306
+-
+66.249.71.79
+0 4 0 5495 2 1350634413
+-
+91.224.160.35
+0 2 0 752 2 1350544654
+-
+95.240.253.158
+0 5 5 17970 1 1349140448
+/wp-login.php
+66.249.71.81
+0 1 0 3025 1 1349155175
+/
+66.249.71.82
+0 2 1 4604 2 1350182854
+/בדיקה-17/
+66.249.71.86
+0 1 0 2925 1 1349082199
+-
+66.249.71.88
+0 1 0 926 1 1349081918
+/
+208.115.111.73
+0 15 13 141999 7 1350641920
+/
+66.249.71.97
+0 1 0 1375 1 1350532184
+-
+66.249.71.98
+0 7 2 60226 3 1350534153
+-
+66.249.71.99
+0 3 1 8991 2 1350534873
+-
+180.76.6.20
+0 1 1 3234 1 1349736697
+/category/series-2/
+180.76.6.26
+0 1 1 3364 1 1349254586
+/בדיקה-13/
+180.76.6.29
+0 2 2 3979 1 1349808991
+/2012/08/
+65.52.108.51
+0 11 11 44234 1 1349400087
+/בדיקה-13/
+180.76.6.36
+0 2 2 8055 2 1349949955
+/בדיקה-13/
+180.76.6.37
+0 1 1 3345 1 1350668914
+/page/2/
+65.55.24.214
+0 11 1 25249 8 1349513924
+/
+65.55.24.215
+0 17 7 28604 9 1349729710
+-
+65.55.24.216
+0 2 1 3231 1 1349258202
+-
+178.154.173.30
+0 1 1 3068 1 1350396507
+/page/2/
+66.249.71.4
+0 1 1 4696 1 1350116171
+/
+66.249.71.5
+0 3 2 8023 2 1350414248
+/
+66.249.71.6
+0 1 0 926 1 1349243641
+/
+74.125.18.152
+0 1 1 631 0 0
+-
+74.125.18.157
+0 1 1 631 0 0
+-
+65.55.24.239
+0 6 2 15240 4 1349457008
+-
+79.181.150.38
+0 1 0 926 1 1349269115
+/
+65.55.24.245
+0 3 2 1135 1 1349346429
+-
+157.56.93.201
+0 7 3 5444 4 1350701780
+-
+157.56.93.208
+0 2 1 3231 1 1349708585
+-
+78.6.228.32
+0 5 5 17970 1 1349140330
+/wp-login.php
+109.64.187.227
+0 17 0 2431 2 1349444247
+/
+79.180.163.75
+0 56 48 324787 2 1350571674
+/בדיקה-18/
 208.115.113.89
-0 14 7 54825 6 1338646269
--
-66.249.72.208
-0 2 0 3838 2 1338603843
--
-66.249.72.209
-0 1 0 2462 1 1338608082
--
-66.249.72.210
-0 1 0 1824 1 1338511285
--
-66.249.72.214
-0 1 0 376 1 1338633848
--
-66.249.72.217
-0 2 0 4844 2 1338633869
--
-66.249.72.218
-0 3 0 11413 3 1338604510
--
-66.249.72.219
-0 3 0 3695 2 1338624965
+0 9 8 24334 4 1350418338
+/wp-login.php
+79.179.243.218
+0 9 0 1287 1 1349093747
 /
-66.249.72.226
-0 1 0 1370 1 1338621852
+79.176.227.246
+0 265 2 47205 29 1349920569
+/
+69.84.207.246
+0 96 28 566368 2 1349593007
+/category/series-2/page/2/
+173.199.114.115
+0 77 77 23562 0 0
 -
-66.249.72.227
-0 4 1 6273 3 1338604800
+65.52.111.65
+0 10 10 38924 1 1349320710
+/בדיקה-13/
+173.199.114.123
+0 1 1 4692 1 1350281977
+/
+65.52.111.75
+0 14 14 80437 1 1350530290
+/בדיקה-23/
+213.186.119.135
+0 1 0 926 1 1349482877
+/
+213.186.119.136
+0 1 0 926 1 1349612477
+/
+173.199.115.171
+0 1 1 4690 1 1349873116
+/
+213.186.119.142
+0 1 0 926 1 1349450476
+/
+217.69.133.31
+0 8 8 2448 0 0
 -
-207.46.13.49
-0 8 2 10886 6 1338616792
--
-66.96.128.65
-0 2 2 2 1 1338537887
-/wp-cron.php
 66.96.128.66
-0 6 6 6 4 1338634334
+0 170 170 170 124 1350719330
 /wp-cron.php
-157.55.17.143
-0 27 4 45357 15 1338650145
--
-66.96.128.72
-0 1 1 1 1 1338633850
-/wp-cron.php
-207.46.13.95
-0 5 0 16700 5 1338651101
--
-65.52.109.147
-0 1 0 1805 1 1338514941
--
-95.108.150.235
-0 8 7 13005 1 1338605240
+178.154.203.251
+0 1 1 4689 1 1350295007
 /
-65.52.110.200
-0 1 0 2433 1 1338610997
+66.96.128.72
+0 1 1 1 1 1350080833
+/wp-cron.php
+64.246.165.10
+0 2 2 4999 1 1349639845
+/
+213.186.122.3
+0 1 0 926 1 1349644876
+/
+65.55.55.230
+0 3 1 6158 2 1350694125
 -
-65.52.109.194
-0 5 3 6471 3 1338637405
+173.199.114.99
+0 1 0 926 1 1349862362
+/
+89.28.3.241
+0 2 1 49686 1 1349307225
+/
+157.55.33.20
+0 2 1 3231 1 1349055055
 -
+157.55.33.21
+0 19 7 30073 10 1349682506
+-
+46.119.118.218
+0 2 1 42240 1 1349895055
+/
+95.108.246.253
+0 1 1 4691 1 1349736335
+/
+5.9.37.146
+0 2 2 5002 1 1350152157
+/
+157.55.112.217
+0 13 13 78916 1 1350526278
+/category/series-2/
+95.108.150.235
+0 24 21 60675 3 1350562535
+/
+157.55.33.40
+0 10 1 26640 2 1350606784
+-
+157.55.33.49
+0 2 1 3231 1 1349250323
+-
+213.186.127.11
+0 1 0 3025 1 1349515274
+/
+213.186.127.13
+0 1 0 926 1 1349677277
+/
+64.246.165.140
+0 2 2 5008 1 1350693775
+/
+95.108.245.252
+0 1 1 3347 1 1350402976
+/page/2/
+157.55.33.79
+0 10 3 14615 4 1349729682
+-
+79.183.225.83
+0 42 42 291097 2 1349806064
+/
+157.55.33.80
+0 211 46 436101 52 1350681403
+-
+157.55.33.86
+0 5 2 4581 3 1349687277
+-
+64.246.165.160
+0 1 1 7382 1 1350467216
+/feed/
+76.73.3.18
+0 1 1 41138 1 1350639437
+/
 217.69.135.91
-0 5 5 26428 0 0
+0 15 15 401615 0 0
 -
-207.46.204.224
-0 15 4 18376 9 1338644923
+157.55.35.32
+0 17 1 51568 3 1350586357
+-
+157.55.35.34
+0 14 4 23255 7 1349786113
+-
+157.55.33.98
+0 30 14 23180 14 1349438459
+-
+157.55.35.37
+0 1 1 306 0 0
+-
+79.182.197.112
+0 26 0 3718 1 1349136693
+/
+79.179.197.120
+0 40 39 279240 1 1349691688
+/
+178.154.243.90
+0 2 2 6414 2 1350523235
+/page/2/
+178.154.243.94
+0 1 0 542 1 1350402971
+/
+157.55.35.40
+0 3 1 6156 2 1349400181
+-
+178.154.243.99
+0 1 1 4688 1 1349193550
+/
+178.154.211.252
+0 1 0 557 1 1350523228
+/
+157.55.35.46
+0 2 1 823 1 1350685011
+-
+157.55.35.48
+0 11 5 10163 4 1349607814
+-
+94.75.245.17
+0 1 1 2430 1 1349540089
+/wp-login.php
+79.176.195.253
+0 189 0 27027 10 1349415471
+/
+157.55.35.52
+0 5 1 7602 2 1349502112
+/
+157.55.35.53
+0 4 2 4156 2 1349150373
+/
+157.55.35.100
+0 4 2 6462 2 1349159492
+-
+46.119.115.88
+0 2 1 42240 1 1349090829
+/
+107.21.192.42
+0 2 1 41691 1 1349233760
+/
+176.9.111.204
+0 2 1 41691 2 1349579401
+/
+66.249.16.212
+0 1 1 4700 1 1350571716
+/
+157.55.35.79
+0 35 18 47296 17 1349690830
+-
+62.219.84.195
+0 2 2 14764 1 1349740345
+/feed/
+157.55.35.80
+0 3 1 1345 2 1349921852
+-
+157.55.35.85
+0 1 0 926 1 1349067347
+/
+157.55.35.87
+0 8 4 11220 5 1350529387
+/category/series-2/
+157.55.35.88
+0 73 16 143967 26 1350538235
 -
 199.21.99.78
-0 4 3 5370 2 1338634397
-/
-79.177.197.73
-0 2120 530 6010088 11 1338647963
-/
-77.6.229.58
-0 2 0 2224 1 1338637044
-/
-64.79.89.130
-0 2 2 8421 1 1338535485
-/
-180.76.5.185
-0 1 1 2879 1 1338549606
-/
-109.67.210.170
-0 33 1 10642 9 1338651732
-/
-207.46.13.143
-0 14 3 20606 8 1338600341
+0 57 55 151542 40 1350699832
+/בדיקה-19/
+157.55.35.93
+0 4 2 4059 1 1350512654
 -
-207.46.13.146
-0 6 0 11852 6 1338621343
+157.55.35.94
+0 68 19 124871 28 1350685455
+/
+79.177.216.118
+0 477 0 68698 35 1350719537
+/
+79.148.238.85
+0 5 5 17970 1 1349752028
+/wp-login.php
+180.76.5.110
+0 1 1 3366 1 1349278186
+/בדיקה-16/
+180.76.5.111
+0 1 1 3173 1 1349198625
+/2012/08/
+66.249.76.158
+0 2 2 612 0 0
 -
+180.76.5.50
+0 3 3 7007 2 1350170886
+/page/2/
+180.76.5.52
+0 2 2 7866 2 1350192654
+/
+180.76.5.55
+0 3 3 6904 2 1349995258
+/category/series-2/
+180.76.5.57
+0 2 2 6728 2 1349420642
+/בדיקה-13/
+180.76.5.137
+0 1 1 3368 1 1350468564
+/בדיקה-24/
+180.76.5.138
+0 1 1 3368 1 1349864388
+/בדיקה-24/
+180.76.5.139
+0 2 2 7040 2 1349864825
+/בדיקה-13/
+109.65.226.142
+0 13 0 1859 4 1349078089
+/
+180.76.5.60
+0 2 1 4727 2 1350565044
+-
+180.76.5.61
+0 1 1 3173 1 1349455966
+/2012/08/
+180.76.5.62
+0 1 1 4689 1 1350445690
+/
+180.76.5.63
+0 1 1 3346 1 1350066258
+/page/2/
+180.76.5.64
+0 1 1 4695 1 1350017841
+/
+180.76.5.66
+0 1 1 3368 1 1349683323
+/בדיקה-24/
+66.249.76.173
+0 1 1 3354 1 1349666877
+/בדיקה-18/
+180.76.5.67
+0 1 1 3364 1 1349597929
+/בדיקה-13/
+66.249.76.176
+0 1 1 306 0 0
+-
+66.249.76.177
+0 1 1 270988 0 0
+-
+180.76.5.140
+0 1 1 3364 1 1349155412
+/בדיקה-13/
+180.76.5.143
+0 1 1 3368 1 1349523775
+/בדיקה-24/
+180.76.5.144
+0 1 1 3234 1 1349373245
+/category/series-2/
+180.76.5.149
+0 2 2 6913 2 1350494099
+/category/series-2/
+180.76.5.153
+0 1 1 3363 1 1349113916
+/בדיקה-20/
+180.76.5.154
+0 1 1 3376 1 1349062374
+/בדיקה-19/
+180.76.5.155
+0 1 1 3354 1 1349994393
+/בדיקה-18/
+180.76.5.157
+0 1 1 3346 1 1349809910
+/page/2/
+180.76.5.158
+0 3 3 9885 3 1350578869
+/page/2/
+180.76.5.159
+0 2 2 6713 2 1350637865
+/בדיקה-12/
+157.55.33.112
+0 2 1 874 1 1349806364
+-
+157.55.33.113
+0 6 4 13575 4 1349308699
+/
+66.249.76.193
+0 1 1 7382 1 1349824152
+/feed/
+180.76.5.87
+0 1 1 3366 1 1349890454
+/בדיקה-16/
+180.76.5.88
+0 1 1 3354 1 1349277261
+/בדיקה-18/
+66.249.76.199
+0 1 1 4693 1 1349492658
+/
+180.76.5.163
+0 4 4 16578 3 1350532399
+/בדיקה-12/
+180.76.5.164
+0 1 1 3675 1 1350032739
+/בדיקה-23/
+180.76.5.165
+0 1 1 3173 1 1350262535
+/2012/08/
+157.55.33.123
+0 13 5 18528 6 1350019676
+-
+180.76.5.91
+0 1 1 3675 1 1349950398
+/בדיקה-23/
+180.76.5.93
+0 1 1 3377 1 1349598736
+/בדיקה-14/
+180.76.5.95
+0 3 3 10369 3 1350712467
+/בדיקה-12/
+180.76.5.170
+0 1 1 3678 1 1350608949
+/בדיקה-17/
+180.76.5.172
+0 1 1 3347 1 1349560389
+/page/2/
+180.76.5.173
+0 1 1 4691 1 1350365107
+/
+180.76.5.177
+0 1 1 3347 1 1350234075
+/page/2/
+180.76.5.178
+0 1 1 3173 1 1349641261
+/2012/08/
+180.76.5.179
+0 1 1 306 0 0
+-
+178.137.163.241
+0 2 1 49686 1 1350250103
+/
+188.40.42.204
+0 2 1 41691 1 1349721695
+/
+180.76.5.180
+0 3 3 10038 3 1350282527
+/בדיקה-12/
+180.76.5.181
+0 1 0 1364 1 1350298464
+-
+180.76.5.182
+0 1 1 3363 1 1349198420
+/בדיקה-20/
+173.236.59.218
+0 62 50 569792 2 1350189051
+/בדיקה-12/
+180.76.5.184
+0 1 1 3347 1 1350408002
+/page/2/
+218.241.108.115
+0 2 2 4998 1 1350404504
+/
+180.76.5.186
+0 2 2 7041 2 1350522863
+/בדיקה-17/
+180.76.5.188
+0 1 1 306 0 0
+-
+180.76.5.192
+0 1 1 3368 1 1350118898
+/בדיקה-24/
+180.76.5.196
+0 1 1 3678 1 1350090212
+/בדיקה-17/
+157.55.32.113
+0 18 3 42440 6 1349517330
+-
+173.199.114.211
+0 1 0 926 1 1349860703
+/
+69.58.178.59
+0 10 10 149907 1 1350440184
+/2012/08/page/2/
 108.163.224.130
-0 47 41 591825 4 1338611800
+0 248 200 2279188 13 1350707805
+/בדיקה-12/
+68.47.129.55
+0 1 1 306 0 0
+-
+74.68.148.246
+0 42 42 290870 1 1350571731
+/בדיקה-20/
+77.127.183.82
+0 41 41 290803 1 1349375955
 /
+66.249.73.136
+0 1 1 4690 1 1349355143
+/
+66.249.73.139
+0 2 2 4996 1 1349916154
+/
+157.55.33.182
+0 6 4 4663 2 1349261799
+-
+157.55.32.141
+0 75 22 146255 27 1350692650
+-
+176.195.185.179
+0 2 1 49474 1 1349674939
+/
+64.246.161.190
+0 1 1 7382 1 1349199917
+/feed/
+93.91.118.5
+0 2 2 9377 2 1349336362
+/
+195.190.13.158
+0 75 75 250256 1 1350335810
+/wp-login.php
+157.55.32.152
+0 5 3 7697 1 1349525790
+/category/series-2/
+157.55.32.154
+0 180 47 382468 53 1350598294
+-
 # End Of Table - sites (monthly)
 # -sites- (daily)
-66.249.72.151
-0 1 0 6802 1 1338635887
--
-66.249.72.154
-0 1 0 2409 1 1338599434
--
-66.249.72.169
-0 1 0 6794 1 1338612629
--
-188.134.91.146
-0 1 0 4420 1 1338631121
--
-65.52.104.28
-0 3 0 5737 3 1338612403
+173.199.119.59
+0 1 1 4702 1 1350717225
 /
-95.108.158.240
-0 2 2 7898 0 0
--
-98.158.20.227
-0 2 0 286 1 1338651394
-/בדיקה/feed/
-98.158.20.228
-0 1 0 143 1 1338621027
-/
-108.166.95.108
-0 2 1 2755 1 1338606269
-/feed/
-98.158.20.232
-0 1 0 143 1 1338635586
-/
-98.158.20.237
-0 1 1 1146 1 1338607220
-/בדיקה/feed/
-178.16.129.27
-0 1 1 8663 1 1338646237
-/
-37.113.8.189
-0 10 5 78033 5 1338646706
-/
-178.154.200.147
-0 2 2 3209 1 1338642825
-/
-65.52.110.153
-0 4 0 9803 4 1338645645
--
-194.60.207.172
-0 2 1 9340 1 1338611176
-/
-65.52.108.12
-0 8 4 13536 4 1338649393
--
-65.52.110.192
-0 6 0 15232 5 1338645521
+157.56.93.201
+0 3 1 1388 2 1350701780
 -
 208.115.113.89
-0 4 2 14408 2 1338646269
--
-66.249.72.208
-0 1 0 2471 1 1338603843
--
-66.249.72.209
-0 1 0 2462 1 1338608082
--
-66.249.72.214
-0 1 0 376 1 1338633848
--
-66.249.72.217
-0 1 0 2438 1 1338633869
--
-66.249.72.218
-0 1 0 2438 1 1338604510
--
-66.249.72.219
-0 1 0 926 1 1338624965
-/
-66.249.72.226
-0 1 0 1370 1 1338621852
--
-66.249.72.227
-0 1 0 2477 1 1338604800
--
-207.46.13.49
-0 3 1 3257 2 1338616792
+0 1 1 306 0 0
 -
 66.96.128.66
-0 2 2 2 1 1338634334
+0 2 2 2 2 1350719330
 /wp-cron.php
-157.55.17.143
-0 10 1 21256 4 1338650145
+65.55.55.230
+0 1 0 2926 1 1350694125
 -
-66.96.128.72
-0 1 1 1 1 1338633850
-/wp-cron.php
-207.46.13.95
-0 5 0 16700 5 1338651101
--
-95.108.150.235
-0 8 7 13005 1 1338605240
+64.246.165.140
+0 2 2 5008 1 1350693775
 /
-65.52.110.200
-0 1 0 2433 1 1338610997
--
-65.52.109.194
-0 5 3 6471 3 1338637405
--
-207.46.204.224
-0 6 1 8656 4 1338644923
--
 199.21.99.78
-0 2 2 3211 1 1338634397
-/
-79.177.197.73
-0 886 164 1008506 4 1338647963
-/
-77.6.229.58
-0 2 0 2224 1 1338637044
-/
-109.67.210.170
-0 6 0 858 5 1338651732
-/
-207.46.13.143
-0 6 2 6458 2 1338600341
+0 1 1 3376 1 1350699832
+/בדיקה-19/
+157.55.35.94
+0 1 1 306 0 0
 -
-207.46.13.146
-0 3 0 5768 3 1338621343
--
+79.177.216.118
+0 7 0 1001 3 1350719537
+/
+180.76.5.95
+0 1 1 3345 1 1350712467
+/בדיקה-12/
 108.163.224.130
-0 28 25 362369 2 1338611800
-/
+0 31 25 284906 2 1350707805
+/בדיקה-12/
+157.55.32.141
+0 1 0 521 1 1350692650
+-
 # End Of Table - sites (daily)
 # -referrers- 
-http://www.2fun2watch.com/wp-admin/post.php
-1 15
 - (Direct Request)
-0 396
+0 3303
+http://www.2fun2watch.com/בדיקה-13/
+1 19
 http://www.2fun2watch.com/wp-login.php
-1 9
-http://www.2fun2watch.com/wp-admin/edit.php
-1 6
-http://www.2fun2watch.com/wp-admin/edit-comments.php
-1 18
-http://www.2fun2watch.com/watch-house-season-8-episode-11
-1 1
-http://www.2fun2watch.com/wp-admin/plugins.php
-1 8
-http://www.2fun2watch.com/the-big-bang-theory-season-5-episode15
-1 1
+1 20
+http://www.2fun2watch.com/בדיקה-17/
+1 2
 Google
-2 28
+2 490
 http://www.2fun2watch.com/
-1 1651
-http://forum.2fun2watch.com/
-1 3
-http://www.2fun2watch.com/st
-1 53
-http://www.2fun2watch.com/wp-admin/options-writing.php
-1 2
-http://www.2fun2watch.com/wp-admin/options-discussion.php
+1 229
+http://s.nsdsvc.com/App/DddWrapper.swf
+0 2
+http://www.2fun2watch.com/page/2/
 1 4
-http://www.2fun2watch.com/wp-admin/update-core.php
-1 1
-http://www.google.com/url
-1 28
-http://www.2fun2watch.com/wp-admin/options-general.php
-1 15
-http://www.2fun2watch.com/wp-admin/update.php
-1 2
-http://www.2fun2watch.com/wp-admin/users.php
-1 1
-http://www.2fun2watch.com/בדיקה/
-1 133
-http://www.2fun2watch.com/tag/watch-the-big-bang-theory-season-5-episode18-
-1 1
-http://www.2fun2watch.com/wp-admin/admin.php
-1 30
-http://www.2fun2watch.com/wp-admin/post-new.php
-1 22
-http://www.2fun2watch.com/wp-admin/media-upload.php
-1 21
-http://www.2fun2watch.com/wp-admin/themes.php
-1 12
-http://www.2fun2watch.com/wp-admin/options-privacy.php
-1 1
-http://www.2fun2watch.com/category/series-2/
+http://www.2fun2watch.com/wp-content/themes/gamezine/style.css
 1 10
-http://www.2fun2watch.com/wp-admin/
-1 25
+http://www.2fun2watch.com/בדיקה-20/
+1 2
+http://www.google.com/url
+1 490
+http://www.2fun2watch.com/בדיקה-23/
+1 14
+http://whois.domaintools.com/2fun2watch.com
+1 3
+http://www.elsf.net/showthread.php
+0 4
+http://ccappliancerepair.com/service/
+0 1
+http://2fullofbama.com/administrator/index.php
+0 2
+http://www.2fun2watch.com/wp-content/themes/gamezine/glide.css
+1 2
+http://www.2fun2watch.com/category/series-2/
+1 12
 # End Of Table - referrers
 # -agents- 
-YandexImages/3.0
-0 2
 MSIE 7.0
-0 514
+0 144
+Googlebot-Image/1.0
+0 4
 Googlebot/2.1
-0 31
-MSIE 5.0
-0 2
-WordPress/3.3.1; http://www.2fun2watch.com
-0 9
+0 115
 Netscape 6 compatible
-2 39
-OffByOne
+2 270
+crawler4j (http://code.google.com/p/crawler4j/)
+0 2
+Windows
+0 2
+Googlebot-Mobile
 0 2
 Mozilla/5.0
-0 39
-Opera/9.1
+0 270
+RSSOwl/2.1.4.201207281409 (Windows; U; en)
+0 997
+Opera/9.5
 0 2
-Opera/9.2
-0 1
+Opera/9.8
+0 4
 Baiduspider/2.0
-0 1
+0 79
 YandexBot/3.0
-0 16
+0 95
+AhrefsBot/4.0
+0 84
 Opera
 2 6
-Opera/7.5
+MSIE 8.0
 0 1
 MSIE 6.0
-0 27
+0 1
+CompSpyBot/1.0
+0 2
+WordPress/3.4.1; http://www.2fun2watch.com
+0 171
 bingbot/2.0
-0 140
+0 1291
 SiteLockSpider [en] (WinNT; I ;Nav)
-0 19
-MSIE 4.0
-0 2
+0 163
+BlackBerry9000/4.6.0.167 Profile/MIDP-2.0 Configuration/CLDC-
+0 4
+Netscape 4 (or compatible)
+2 1
 Mail.R
-0 5
-RSSOwl/2.1.2.201108131738 (Windows; U; en)
-0 33
+0 23
+LSSRocketCrawler/1.0 LightspeedSystems
+0 96
+Mozilla/4.8
+0 1
 Ezooms/1.0
-0 14
-Opera/8.0
-0 2
+0 24
 MSIE 9.0
-0 1601
+0 534
+AhrefsBot/3.1
+0 6
 # End Of Table - agents
 # -search strings- 
 # End Of Table - search strings

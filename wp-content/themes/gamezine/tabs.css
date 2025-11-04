@@ -1,0 +1,233 @@
+
+
+
+.widgets {
+	width: 630px;
+	margin: 0px 0px;
+	padding: 10px 10px;
+	background: url(images/vanila.jpg) repeat-y;
+	margin-bottom: 15px;
+	float:left;
+}
+
+.widgets a {
+	color: #222;
+	text-decoration: none;
+	}
+	
+.widgets a:hover {
+	color: #009;
+	text-decoration: underline;
+	}
+	
+ul.tabnav{
+
+	width:620px;
+	padding: 4px 6px;
+	height:30px;
+	margin:0px 0px;
+}
+
+
+.tabnav li {
+	display: inline;
+	list-style: none;
+	padding-right: 5px;
+	float:left;
+	}
+	
+.tabnav li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #222;
+	font-weight: bold;
+	padding: 4px 6px;
+	outline: none;
+	width:180px;
+	height:25px;
+	display:block;
+	}
+		
+.tabnav li a:hover, .tabnav li a:active, .tabnav li.ui-tabs-selected a {
+	
+	color: #222;
+	text-decoration: none;
+	}
+
+.tabnav li.sp1 a	{
+
+background:url(images/1tab.jpg) bottom no-repeat;;
+}
+.tabnav li.ab2 a	{
+
+background:url(images/2tab.jpg) bottom no-repeat;;
+}
+
+.tabnav li.rn3 a	{
+
+background:url(images/3tab.jpg) bottom no-repeat;;
+}
+.tabdiv {
+	margin-top: 2px;
+	padding: 5px;
+	float:left;
+	width:620px;
+	}
+	
+.tabdiv li {
+	list-style-image: url("star.png");
+	margin-left: 20px;
+	}
+
+.ui-tabs-hide {
+	display: none;
+	}
+
+.rblock h2{
+	margin: 0px 0 0px 0;
+	padding: 5px 0px 3px 0px;
+	text-align: left;
+	font-size: 16px;
+	overflow:hidden;
+	height:16px;
+}
+.rblock h2 a:link, .rblock h2 a:visited{
+	color:#2D5D71;
+}
+.rblock {
+	
+	width: 300px;
+	float:left;
+	margin: 5px 10px 0px 0px;
+	padding:0px 0 0 0;
+	display:inline;
+	background:url(images/featl.jpg);
+	color:#222;
+	font-family:century gothic,Arial,verdana, sans-serif;
+}
+
+
+.rblock p{
+	margin:5px 5px;
+	color:#6b7478;
+}
+
+
+.rblock img {
+	float:left;
+	border:1px solid #393F42;
+	margin:5px 5px 5px 5px;
+	padding:0 0;
+	}
+	
+	
+#about{
+
+	padding: 0 0 5px 0;
+
+	}
+
+#about a{
+	color: #425200;
+}
+
+#about p.text{
+	padding: 5px 5px ;
+	font-family: century gothic,Georgia, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #fff;
+	margin:0px 0px;
+}
+
+#about img.avatar{
+	float: left;
+	margin: 0px 10px 10px 0;
+	background:#0E1829;
+	padding:5px 5px;
+}
+
+
+.sf-menu, .sf-menu * {
+	margin:			0;
+	padding:		0;
+	list-style:		none;
+}
+.sf-menu {
+	line-height:	1.0;
+	height:30px;
+	background:#060d18;
+}
+.sf-menu ul {
+	position:		absolute;
+	top:			-999em;
+	width:			10em; /* left offset of submenus need to match (see below) */
+}
+.sf-menu ul li {
+	width:			100%;
+}
+.sf-menu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-menu li {
+	float:			left;
+	position:		relative;
+}
+.sf-menu a {
+	display:		block;
+	position:		relative;
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left:			0;
+	top:			30px; /* match top ul list item height */
+	z-index:		150;
+}
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}
+.sf-menu {
+	float:			left;
+	margin-bottom:0px;
+	width:1000px;
+}
+.sf-menu a {
+	border-right:	1px solid #122B41;
+	padding: 8px  10px;
+	text-decoration:none;
+}
+.sf-menu a, .sf-menu a:visited  { /* visited pseudo selector so IE6 applies text colour*/
+	color:			#6CA7C7;
+}
+.sf-menu li {
+	background:		#060D18;
+}
+.sf-menu li li {
+	background:		#060D18;
+}
+.sf-menu li li li {
+	background:		#060D18;
+}
+.sf-menu li:hover, .sf-menu li.sfHover,
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+	background:	url(images/cata.jpg) repeat-x;
+	outline:		0;
+	color:			#d9dfe0;
+}
+
+

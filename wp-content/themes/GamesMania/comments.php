@@ -53,6 +53,11 @@
 	<small><?php cancel_comment_reply_link(); ?></small>
 </div>
 
+<?php 
+global $user_ID, $user_identity;
+$user_ID = isset($user_ID) ? $user_ID : get_current_user_id();
+$user_identity = isset($user_identity) ? $user_identity : (is_user_logged_in() ? wp_get_current_user()->display_name : '');
+?>
 <?php if ( get_option('comment_registration') && !$user_ID ) : ?>
 <p>You must be <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?redirect_to=<?php echo urlencode(get_permalink()); ?>">logged in</a> to post a comment.</p>
 <?php else : ?>
