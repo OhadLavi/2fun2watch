@@ -1,0 +1,22 @@
+/* No more Tahoma - it sucks for Hebrew script */
+#adminmenu a.menu-top, #adminmenu .wp-submenu-head,
+#adminmenu .wp-submenu a,
+#dashboard_right_now p.sub, #dashboard-widgets h4, #dashboard_quick_press h4, a.rsswidget, #dashboard_plugins h4, #dashboard_plugins h5, #dashboard_recent_comments .comment-meta .approve,
+#dashboard_right_now .versions a,
+.rss-widget span.rss-date,
+#dashboard_recent_drafts h4 abbr,
+.submit input, .button, .button-secondary,
+#login form .submit input,
+#wphead h1,
+#dashboard_right_now td.b,
+.tablenav .displaying-num,
+.howto,
+.submit input, .button, .button-primary, .button-secondary, .button-highlighted, #postcustomstuff .submit input,
+h2 .nav-tab,
+body, td, textarea, input, select { font-family: Arial, sans-serif; }
+/* No italics in Hebrew script - use Bold instead */
+em { font-style: normal; font-weight: bold; }
+/* LTR text fields */
+#custom-menu-item-url { direction: ltr; }
+/* Minor issue in comment moderation */
+.response-links { float: right; }
