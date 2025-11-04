@@ -1,0 +1,119 @@
+<html dir="rtl">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>&#1491;&#1507; &#1495;&#1491;&#1513; 1</title>
+</head>
+
+<body>
+<script> 
+function invert(word){
+	var len = word.length;
+	var newWord = "";
+	if (! isHebrew(word))
+		newWord = word;
+	else {
+		for ( var i=0 ; i<len ; ++i) {
+			var c = word.charAt(i);
+			newWord = c + newWord;
+		}
+	}
+	return newWord;
+}
+ 
+function isHebrew(Word){
+	var found = false;
+	var len = Word.length;
+ 
+	for ( var i=0 ; i<len ; ++i) {
+		var c = Word.charAt(i);
+		if ((c >= '&#1488;') && (c < = '&#1514;'))
+			found = true;
+		if (found)
+			break;
+	}
+	return found;
+}
+function cutEndSpace(line){
+	var c = line.charAt(0);
+	if (c == ' ')
+		return line.substr(1);
+	else
+		return line;
+} 
+function heb1() {
+	var newval="" ;
+	var newline="" ;
+	var lastLine='';
+	var newWord = "";
+	var val=document.f.a.value;
+	var len=val.length;
+	for ( var i=0 ; i<len ; ++i) {
+		var c=val.charAt(i) ;
+		var c0=val.charAt(i+1) ;
+		if ( (c=='\r' && c0=='\n')) {
+			if ( newval.length==0 )
+				newval = invert(newWord) + newline;
+			else
+				if (lastLine.length == 0)
+					newval = newval + "\r\n" + invert(newWord) + newline;
+				else
+					newval = newval + "\r\n" + invert(newWord) + cutEndSpace(newline);
+			lastLine = invert(newWord) + newline;
+			newline="" ;
+			newWord = "";
+			++i;
+			}
+		else {
+			if (c != ' ')
+				newWord = newWord + c;
+			else {
+				newline = ' ' + invert(newWord) + newline;
+ 
+				newWord = "";
+			}
+		}
+	}
+	if ( newval.length==0 )
+		newval = invert(newWord) + newline;
+	else
+		if (lastLine.length == 0)
+			newval = newval + "\r\n" + invert(newWord) + newline;
+		else
+			newval = newval + "\r\n" + invert(newWord) + cutEndSpace(newline);
+	document.f.a.value=newval;
+}
+function heb2() {
+	var newval="" ;
+	var val=document.f.a.value;
+	var len=val.length;
+	for ( var i=0 ; i<len ; ++i) {
+		c=val.charCodeAt(i) ;
+		if( c>95 && c&lt;123 )
+		    newval=newval + String.fromCharCode(val.charCodeAt(i)+128);
+		else
+		    newval=newval + val.charAt(i);
+	}
+	document.f.a.value=newval;
+}
+function heb3() {
+	var newval="" ;
+	var val=document.f.a.value;
+	var len=val.length;
+	for ( var i=0 ; i</len><len ; ++i) {
+		c=val.charCodeAt(i) ;
+		if( c>(95+128) && c< (123+128) )
+		    newval=newval + String.fromCharCode(val.charCodeAt(i)-128);
+		else
+		    newval=newval + val.charAt(i);
+	}
+	document.f.a.value=newval;
+}
+</SCRIPT>
+
+<form name=f><textarea name="a" class="text-form"  rows="10" cols="68" dir="rtl" >
+</textarea><br /><br /><input onclick="javascript:heb1();return false;" type="submit" value="&#1492;&#1497;&#1508;&#1493;&#1498; &#1496;&#1511;&#1505;&#1496;"/>
+<input type="reset" value="&#1504;&#1511;&#1492;"/></form></len></script>
+</body>
+
+</html>

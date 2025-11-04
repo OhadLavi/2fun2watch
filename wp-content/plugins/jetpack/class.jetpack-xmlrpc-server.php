@@ -32,11 +32,11 @@ class Jetpack_XMLRPC_Server {
 		}
 
 		return apply_filters( 'jetpack_xmlrpc_methods', array(
-			'jetpack.testConnection'    => array( &$this, 'test_connection' ),
-			'jetpack.featuresAvailable' => array( &$this, 'features_available' ),
-			'jetpack.featuresEnabled'   => array( &$this, 'features_enabled' ),
-			'jetpack.getPost'           => array( &$this, 'get_post' ),
-			'jetpack.getComment'        => array( &$this, 'get_comment' ),  
+			'jetpack.testConnection'    => array( $this, 'test_connection' ),
+			'jetpack.featuresAvailable' => array( $this, 'features_available' ),
+			'jetpack.featuresEnabled'   => array( $this, 'features_enabled' ),
+			'jetpack.getPost'           => array( $this, 'get_post' ),
+			'jetpack.getComment'        => array( $this, 'get_comment' ),  
 		) );
 	}
 
@@ -45,7 +45,7 @@ class Jetpack_XMLRPC_Server {
 	 */
 	function bootstrap_xmlrpc_methods() {
 		return array(
-			'jetpack.verifyRegistration' => array( &$this, 'verify_registration' ),
+			'jetpack.verifyRegistration' => array( $this, 'verify_registration' ),
 		);
 	}
 
@@ -99,13 +99,13 @@ class Jetpack_XMLRPC_Server {
 		$user = wp_authenticate( 'username', 'password' );
 		if ( is_wp_error( $user ) ) {
 			if ( 'authentication_failed' == $user->get_error_code() ) { // Generic error could mean most anything.
-				$this->error =& new Jetpack_Error( 'invalid_request', 'Invalid Request', 403 );
+				$this->error = new Jetpack_Error( 'invalid_request', 'Invalid Request', 403 );
 			} else {
 				$this->error = $user;
 			}
 			return false;
 		} else if ( !$user ) { // Shouldn't happen.
-			$this->error =& new Jetpack_Error( 'invalid_request', 'Invalid Request', 403 );
+			$this->error = new Jetpack_Error( 'invalid_request', 'Invalid Request', 403 );
 			return false;
 		}
 

@@ -737,3 +737,17 @@ margin-right: 20px;
 	margin: 0;
 	display: block;
 	}
+	
+#footerwrap {
+	border: 1px solid #43403a;	
+	background-color: #38352e;
+	margin: 5px 5px 5px 5px;
+	}
+#footerwrap p {
+    color: #ffffff;
+	margin: 5px 5px 1px 5px;
+	text-align: right;
+	}
+.tracker {
+    margin: 2px 5px 1px 2px;
+    }

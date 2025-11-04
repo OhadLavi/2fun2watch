@@ -23,9 +23,9 @@
  	  <?php } ?>
 
 		<?php while (have_posts()) : the_post(); ?>
-        <div class="postwrap">
+        <div class="postwrap" align="right">
 		<div <?php post_class() ?>>
-				<h2 class="title" id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><b><?php the_title(); ?></b></a></h2>
+				<h2 class="title" id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><b><font color="white"><?php the_title(); ?></font></b></a></h2>
 				<div class="postdate">Posted by <strong><?php the_author() ?></strong> on  <?php the_time('F jS, Y') ?> <?php if (current_user_can('edit_post', $post->ID)) { ?> | <?php edit_post_link('Edit', '', ''); } ?></div>
 
 				<div class="entry">
@@ -33,7 +33,7 @@
 					<?php the_excerpt() ?>
 				</div>
 
-				<div class="postmeta"><img src="<?php bloginfo('template_url'); ?>/images/folder.png" /> Posted in <?php the_category(', ') ?> <?php if(get_the_tags()) { ?> <img src="<?php bloginfo('template_url'); ?>/images/tag.png" /> <?php  the_tags('Tags: ', ', '); } ?>  <img src="<?php bloginfo('template_url'); ?>/images/comments.png" /> <?php comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?></div>
+				<div class="postmeta" align="left"><img src="<?php bloginfo('template_url'); ?>/images/folder.png" /> Posted in <?php the_category(', ') ?> <?php if(get_the_tags()) { ?> <img src="<?php bloginfo('template_url'); ?>/images/tag.png" /> <?php  the_tags('Tags: ', ', '); } ?>  <img src="<?php bloginfo('template_url'); ?>/images/comments.png" /> <?php comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?></div>
 <div class="readmorecontent">
 <br>
 <br>
@@ -67,10 +67,15 @@
 		}
 		get_search_form();
 
-	endif;
-?>
+	endif; ?>
 
 		</div>
+<div class="span-24">
+<div id="footerwrap" align="center"><font color="white"><span lang="he">&#1492;&#1488;&#1514;&#1512; &#1502;&#1513;&#1502;&#1513; &#1488;&#1497;&#1504;&#1491;&#1511;&#1505; &#1500;&#1511;&#1497;&#1513;&#1493;&#1512;&#1497;&#1501; &#1513;&#1500; &#1510;&#1508;&#1497;&#1497;&#1492; &#1497;&#1513;&#1497;&#1512;&#1492; 
+&#1489;&#1505;&#1512;&#1496;&#1497;&#1501; &#1493;&#1505;&#1491;&#1512;&#1493;&#1514; &#1489;&#1488;&#1497;&#1504;&#1496;&#1512;&#1504;&#1496;, &#1493;&#1488;&#1497;&#1504;&#1493; &#1502;&#1488;&#1495;&#1505;&#1503; &#1488;&#1514; &#1492;&#1511;&#1489;&#1510;&#1497;&#1501; &#1506;&#1500; &#1513;&#1512;&#1514;&#1497;&#1493;.</span>
+<br> Copyright <strong><a href="http://www.2fun2watch.com/">
+2fun2watch</a></strong>- &#1510;&#1508;&#1497;&#1497;&#1492; &#1497;&#1513;&#1497;&#1512;&#1492;, Watch online </p></b></div></font>
+</div>	
 		</div>
 
 

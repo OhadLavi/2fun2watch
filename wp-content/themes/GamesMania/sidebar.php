@@ -1,6 +1,6 @@
 <div class="span-8 last">
 	
-	<div class="sidebar">
+	<div class="sidebar" align="right">
     
      <?php if(get_theme_option('socialnetworks') != '') {
     		?>
@@ -50,7 +50,9 @@
 			<?php 
 					if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>
 
-				<?php wp_list_categories('hide_empty=0&show_count=1&depth=1&title_li=<h2>Categories</h2>'); ?>
+ 				
+<?php wp_list_categories('hide_empty=0&show_count=1&depth=1&title_li=<h2>Categories</h2>'); ?>
+
 
     <?php if(get_theme_option('video') != '') {
 		?>
@@ -67,35 +69,42 @@
 	<?php
 	}
 	?>
-
+    
+                                                          <?php if(get_theme_option('Recent Posts') != '') { ?>
 				<li><h2><?php _e('Recent Posts'); ?></h2>
 			               <ul>
 					<?php wp_get_archives('type=postbypost&limit=5'); ?>  
 			               </ul>
 				</li>
 
-				<?php 
-				$recent_comments_file = TEMPLATEPATH . '/recent-comments.php';
-				if (file_exists($recent_comments_file)) {
-					include($recent_comments_file);
-				}
-				?>
+				<?php include (TEMPLATEPATH . '/recent-comments.php'); ?>
 				<?php if (function_exists('get_recent_comments')) { get_recent_comments(); } ?>
 				
 				<li id="tag_cloud"><h2>Tags</h2>
 					<?php wp_tag_cloud('largest=16&format=flat&number=20'); ?>
 				</li>
+	                                           <?php
+	                                           }
+	                                           ?>
 
+                                                          <?php if(get_theme_option('Archives') != '') { ?>
 				<li><h2>Archives</h2>
 					<ul>
 					<?php wp_get_archives('type=monthly'); ?>
 					</ul>
 				</li>
-				
+	                                           <?php
+	                                           }
+	                                           ?>
+
+                                                          <?php if(get_theme_option('Calendar') != '') { ?>
 				<li> 
 					<h2>Calendar</h2>
 					<?php get_calendar(); ?> 
 				</li>
+	                                           <?php
+	                                           }
+	                                           ?>
 
 				<li><h2>Meta</h2>
 					<ul>

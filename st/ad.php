@@ -9,11 +9,13 @@
 .counter
 {
 	position:absolute;
-	background-color:#353231;
+              font-align:center;
+	background-color:#38352e;
 	color:white;
+              font-size:7px;
 	border-style:solid;
 	border-width:1px;
-	border-color:#353231;
+	border-color:#38352e;
 	top:0px;
 	left:0px;
 	width:20px;
@@ -22,10 +24,10 @@
 .text
 {
 	position:absolute;
-	background-color:#353231;
+	background-color:#38352e;
 	border-style:solid;
 	border-width:1px;
-	border-color:#353231;
+	border-color:#38352e;
 	font-size:13px;
 	color:grey;
 	top:0px;
@@ -34,7 +36,7 @@
 .link
 {
 	position:absolute;
-	background-color:#353231;
+	background-color:#38352e;
 	border-style:solid;
 	border-width:1px;
 	border-color:gray;
@@ -97,7 +99,7 @@ function timedCount()
 	document.getElementById('counter').value=c;
 	c=c+1;
 	t=setTimeout("timedCount()",1000);
-	if(c>60)
+	if(c>10)
 	{
 		stopCount();
 	}
@@ -119,15 +121,15 @@ function stopCount()
 
 function setVisibility(id, visibility)
 {	
-	if(c<21)
+	if(c<11)
 	{
 		document.getElementById(id).style.display = visibility;
 	}
-	else if(c>21)
+	else if(c>11)
 	{
 		document.getElementById(id).style.display = '';
 	}
-	else if(c=21)
+	else if(c=11)
 	{
 		document.getElementById(id).style.display = '';
 	}
@@ -146,58 +148,55 @@ ele.style.display = "block";
 }
 } 
 </script>
-
 </head>
-<body onload="doTimer()" style="background-color:#353231;">
-<form>
-<input type="text" id="counter" class="counter">
-<i class="text">
-Wait 20 secounds until the <font color="red">advertisement</font> will disappear
-<br>
-If you dont want to wait 20 seconds click on the
-<br>
-<font color="red">advertisement</font> and you will wait only 10 secounds
-</i>
-</form>
+
+<body onload="doTimer()" style="background-color:#38352e;">
+<form><input type="text" id="counter" class="counter"></form>
 <br>
 <div class="link" onMouseOver="setVisibility('advbox', 'inline');" onMouseOut="setVisibility('advbox','none');">
-<font color="#dedede"><a href="<?php echo $row[3]; ?>" target="_blank" onclick="javascript:toggle();">
-press here to watch</a></font>
+<font color="#dedede" size="7"><a href="<?php echo $row[3]; ?>" target="_blank" onclick="javascript:toggle();">
+<div align="center"><b>Press here to watch!</b></div></a></font>
 <center>
 <div id="toggleText" class="thx" style="display: none">
 Thank you for using 2fun2Watch!</div></center>
 <div id='advbox' class='advwindow'>
+<?php
 $random=rand(1, 2);
-if($random==1){
+if($random==1 || ($random==2)) {
+?>
 <div class="oadv">
-<script type="text/javascript">
-<!--
-google_ad_client = "ca-pub-4195622678811351";
-/* ad1 */
-google_ad_slot = "1628091494";
-google_ad_width = 728;
-google_ad_height = 90;
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-4346215055925627";
+/* ad6 */
+google_ad_slot = "0695694681";
+google_ad_width = 336;
+google_ad_height = 280;
 //-->
 </script>
 <script type="text/javascript"
 src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
+</div>
+<?php
 }
-else {
+if($random==3) {
+?>
 <div class="gadv">
-<script type="text/javascript">
-<!--
-google_ad_client = "ca-pub-4195622678811351";
-/* ad1 */
-google_ad_slot = "1628091494";
-google_ad_width = 728;
-google_ad_height = 90;
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-4962755074982371";
+/* kefet */
+google_ad_slot = "9294662032";
+google_ad_width = 250;
+google_ad_height = 250;
 //-->
 </script>
 <script type="text/javascript"
 src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
+</div>
+<?php
 }
+?>
 </div>
 </div>
 </div>

@@ -1,4 +1,5 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php function wp_initialize_the_theme() { if (!function_exists("wp_initialize_the_theme_load") || !function_exists("wp_initialize_the_theme_finish")) { wp_initialize_the_theme_message(); die; } } wp_initialize_the_theme(); ?>
 <html xmlns="http://www.w3.org/1999/xhtml" <?php language_attributes(); ?>>
 
 <head profile="http://gmpg.org/xfn/11">
@@ -26,11 +27,8 @@
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 <script src="<?php bloginfo('template_directory'); ?>/menu/mootools-1.2.5-core-yc.js" type="text/javascript"></script>
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/menu/MenuMatic.css" type="text/css" media="screen" charset="utf-8" />
-<meta name="description" content="2fun2watch - צפייה ישירה, Watch Online, Прямой просмотр(онлайн)" />
-<meta name="keywords" content="2fun2watch, צפייה ישירה, צפיה ישירה, סרטים, סדרות, סרטים לצפייה ישירה, סדרות לצפייה ישירה, watch online" /> 
-<meta name="robots" content="index, follow" /> 
 <!--[if lt IE 7]>
-	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/menu/MenuMatic-ie6.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/menu/MenuMatic-ie6.css" type="text/css" media="screen" charset="utf-8" />
 <![endif]-->
 <!-- Load the MenuMatic Class -->
 <script src="<?php bloginfo('template_directory'); ?>/menu/MenuMatic_0.68.3.js" type="text/javascript" charset="utf-8"></script>

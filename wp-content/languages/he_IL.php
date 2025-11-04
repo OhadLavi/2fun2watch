@@ -20,58 +20,13 @@ Better wp-admin styles (No more Tahoma!)
 ------------------------------------------------------------------------- */
 
 function wph_admin() {
-	$url = get_option('siteurl');
-	$url = $url . '/wp-content/languages/he_IL.css';
+	$url = content_url();
+	$url = $url . '/languages/he_IL.css';
 	echo '<link rel="stylesheet" type="text/css" href="' . $url . '" />';
 }
 
 add_action('admin_head', 'wph_admin');
 add_action('login_head', 'wph_admin');
-
-
-/* ------------------------------------------------------------------------- 
-Comment directionality auto-detection by Tom Sella
-http://www.dontsmile.info/my-plugins/plugin-comment_direction/
-------------------------------------------------------------------------- */
-
-class comment_direction
-{
-  function domina($data = '')
-  {
-    $text  = $this->sanitize_text($data);
-    $c_eng = $this->count_it($text, '/\w+/u');
-    $c_heb = $this->count_it($text, '/[\x{05B0}-\x{05F4}\x{FB1D}-\x{FBF4}]+/u');
-    $c_arb = $this->count_it($text, '/[\x{060C}-\x{06FE}\x{FB50}-\x{FEFC}]+/u');
-    $dir   = ($c_eng >= ($c_heb + $c_arb)) ? 'ltr' : 'rtl';
-    $data  = "<div style='direction: {$dir};'><p>" . $data . "</p></div>";
-    return $data;
-  }
-
-  function sanitize_text($data = '')
-  {
-    $sanitized = preg_replace('/<.*?>/x', '', $data); // remove html content
-    $sanitized = preg_replace('/[0-9]+/', '', $sanitized); // remove numbers content
-    return $sanitized;
-  }
-
-  function count_it($data = '', $match)
-  {
-    $i = 0;
-    while (preg_match($match, $data, $x, PREG_OFFSET_CAPTURE))
-    {
-      $i += strlen($x[0][0]);
-      $data = substr($data,$x[0][1] + strlen($x[0][0]));
-    }
-    return $i;
-  }
-  
-  function comment_direction()
-  {
-    add_action('comment_text', array(&$this, 'domina'));
-  }
-}
-
-$countit = new comment_direction();
 
 /* -------------------------------------------------------------------------
 Unfancy Quote Plugin For WordPress by Semiologic

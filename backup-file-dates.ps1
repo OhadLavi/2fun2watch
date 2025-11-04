@@ -1,62 +1,72 @@
-# PowerShell script to backup file creation and last modified dates
-# This script scans all files in the current directory and subdirectories
-# and saves their CreationTime and LastWriteTime to a JSON file
+# PowerShell script to backup file creation and last modified dates to JSON
+# Works on all files in the current directory and subdirectories
 
 param(
-    [string]$OutputFile = "file-dates-backup.json"
+    [string]$OutputFile = "file-dates-backup.json",
+    [string]$Path = "."
 )
 
-Write-Host "Starting file dates backup..." -ForegroundColor Green
-Write-Host "Scanning files in: $PWD" -ForegroundColor Yellow
+# Get the absolute path
+$Path = Resolve-Path $Path
 
-# Get all files recursively, excluding the backup JSON file itself
-$files = Get-ChildItem -Path . -File -Recurse | Where-Object { 
-    $_.FullName -notlike "*$OutputFile" 
-}
+Write-Host "Backing up file dates from: $Path" -ForegroundColor Green
+Write-Host "Output file: $OutputFile" -ForegroundColor Green
+Write-Host ""
 
-$fileCount = $files.Count
-Write-Host "Found $fileCount files to backup" -ForegroundColor Cyan
-
-# Create array to store file information
+# Array to store file information
 $fileData = @()
 
-$processed = 0
+# Get all files recursively
+$files = Get-ChildItem -Path $Path -File -Recurse -ErrorAction SilentlyContinue
+
+$totalFiles = $files.Count
+$processedFiles = 0
+
 foreach ($file in $files) {
-    $processed++
-    $relativePath = $file.FullName.Replace($PWD.Path, "").TrimStart('\', '/')
+    $processedFiles++
+    
+    # Get relative path from the base directory
+    $relativePath = $file.FullName.Substring($Path.Length).TrimStart('\')
     
     # Get file dates
-    $fileInfo = [PSCustomObject]@{
+    $fileInfo = @{
         Path = $relativePath
-        CreationTime = $file.CreationTime.ToString("yyyy-MM-dd HH:mm:ss.fff")
-        LastWriteTime = $file.LastWriteTime.ToString("yyyy-MM-dd HH:mm:ss.fff")
+        CreationTime = $file.CreationTime.ToString("yyyy-MM-dd HH:mm:ss")
+        LastWriteTime = $file.LastWriteTime.ToString("yyyy-MM-dd HH:mm:ss")
+        FullPath = $file.FullName
     }
     
     $fileData += $fileInfo
     
     # Progress indicator
-    if ($processed % 100 -eq 0) {
-        Write-Progress -Activity "Backing up file dates" -Status "Processing file $processed of $fileCount" -PercentComplete (($processed / $fileCount) * 100)
+    if ($processedFiles % 100 -eq 0) {
+        Write-Host "Processed $processedFiles of $totalFiles files..." -ForegroundColor Yellow
     }
 }
 
-Write-Progress -Activity "Backing up file dates" -Completed
-
-# Create backup object with metadata
-$backup = [PSCustomObject]@{
-    BackupDate = (Get-Date).ToString("yyyy-MM-dd HH:mm:ss")
-    BackupPath = $PWD.Path
-    FileCount = $fileData.Count
+# Create output object
+$output = @{
+    BackupDate = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+    BasePath = $Path
+    TotalFiles = $fileData.Count
     Files = $fileData
 }
 
 # Convert to JSON and save
-$json = $backup | ConvertTo-Json -Depth 10
-$outputPath = Join-Path $PWD $OutputFile
-$json | Out-File -FilePath $outputPath -Encoding UTF8
+$json = $output | ConvertTo-Json -Depth 10
 
-Write-Host "`nBackup completed successfully!" -ForegroundColor Green
-Write-Host "Backup file: $outputPath" -ForegroundColor Cyan
-Write-Host "Files backed up: $($fileData.Count)" -ForegroundColor Cyan
-Write-Host "`nYou can now use restore-file-dates.ps1 to restore these dates." -ForegroundColor Yellow
+try {
+    $json | Out-File -FilePath $OutputFile -Encoding UTF8 -Force
+    Write-Host ""
+    Write-Host "Successfully backed up $($fileData.Count) files to: $OutputFile" -ForegroundColor Green
+    Write-Host "Backup completed at: $($output.BackupDate)" -ForegroundColor Green
+} catch {
+    Write-Host ""
+    Write-Host "Error saving backup file: $_" -ForegroundColor Red
+    exit 1
+}
+
+Write-Host ""
+Write-Host "Press any key to exit..."
+$null = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
 
